@@ -50,7 +50,7 @@
             this.L_Site.Name = "L_Site";
             this.L_Site.Size = new System.Drawing.Size(103, 13);
             this.L_Site.TabIndex = 1;
-            this.L_Site.Text = "ProjectPokemon.org";
+            this.L_Site.Text = "shinx.net";
             // 
             // PB_Icon
             // 

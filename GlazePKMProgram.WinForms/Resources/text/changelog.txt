@@ -1,5 +1,5 @@
 ﻿GlazePKMProgram - By Glaze
-http://projectpokemon.org/GlazePKMProgram/
+http://shinx.net/
 
 21/10/01 - New Update:
  - Legality:

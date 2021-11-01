@@ -213,7 +213,7 @@ namespace GlazePKMProgram.WinForms.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to GlazePKMProgram - By Glaze
-        ///http://projectpokemon.org/GlazePKMProgram/
+        ///http://shinx.net/
         ///
         ///20/04/14 - New Update:
         /// - Legality:

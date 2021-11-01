@@ -102,7 +102,7 @@ namespace GlazePKMProgram.WinForms
         public static readonly string CryPath = Path.Combine(WorkingDirectory, "sounds");
         private static readonly string TemplatePath = Path.Combine(WorkingDirectory, "template");
         private static readonly string PluginPath = Path.Combine(WorkingDirectory, "plugins");
-        private const string ThreadPath = "https://projectpokemon.org/GlazePKMProgram/";
+        private const string ThreadPath = "https://shinx.net/GlazePKMProgram/";
 
         public static readonly GlazePKMProgramSettings Settings = GlazePKMProgramSettings.GetSettings(ConfigPath);
 

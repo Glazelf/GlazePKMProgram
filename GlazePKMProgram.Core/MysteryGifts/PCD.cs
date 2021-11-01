@@ -8,8 +8,8 @@ namespace GlazePKMProgram.Core
     /// </summary>
     /// <remarks>
     /// Big thanks to Grovyle91's Pokémon Mystery Gift Editor, from which the structure was referenced.
-    /// https://projectpokemon.org/home/profile/859-grovyle91/
-    /// https://projectpokemon.org/home/forums/topic/5870-pok%C3%A9mon-mystery-gift-editor-v143-now-with-bw-support/
+    /// https://shinx.net/home/profile/859-grovyle91/
+    /// https://shinx.net/home/forums/topic/5870-pok%C3%A9mon-mystery-gift-editor-v143-now-with-bw-support/
     /// See also: http://tccphreak.shiny-clique.net/debugger/pcdfiles.htm
     /// </remarks>
     public sealed class PCD : DataMysteryGift, IRibbonSetEvent3, IRibbonSetEvent4

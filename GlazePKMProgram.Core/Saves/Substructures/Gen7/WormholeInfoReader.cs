@@ -6,7 +6,7 @@ namespace GlazePKMProgram.Core
         public WormholeInfoReader(SAV7 sav) => SAV = sav;
 
         // Wormhole shininess & flags found by @PP-theSLAYER
-        // https://projectpokemon.org/home/forums/topic/39433-gen-7-save-research-thread/?page=3&tab=comments#comment-239090
+        // https://shinx.net/home/forums/topic/39433-gen-7-save-research-thread/?page=3&tab=comments#comment-239090
         public bool WormholeShininess // 0x4535 = Misc (0x4400 in USUM) + 0x0135
         {
             get => SAV.Data[SAV.Misc.Offset + 0x0135] == 1;

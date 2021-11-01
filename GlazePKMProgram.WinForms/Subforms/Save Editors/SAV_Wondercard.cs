@@ -354,7 +354,7 @@ namespace GlazePKMProgram.WinForms
 
             string desc = $"({mg.Type}) {string.Join(Environment.NewLine, mg.GetDescription())}";
 
-            using var form = new QR(qr, PB_Preview.Image, desc + Environment.NewLine + "GlazePKMProgram Wonder Card @ ProjectPokemon.org");
+            using var form = new QR(qr, PB_Preview.Image, desc + Environment.NewLine + "GlazePKMProgram Wonder Card @ shinx.net");
             form.ShowDialog();
         }
 
