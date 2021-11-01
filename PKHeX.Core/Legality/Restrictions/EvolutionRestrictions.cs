@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.Move;
-using static PKHeX.Core.Species;
+using static GlazePKMProgram.Core.Move;
+using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Restriction logic for evolutions that are a little more complex than <see cref="EvolutionMethod"/> can simply check.

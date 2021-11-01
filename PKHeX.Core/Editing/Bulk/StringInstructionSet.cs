@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Processes input of strings into a list of valid Filters and Instructions.

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// <see cref="EncounterStatic8"/> with multiple references (used for multiple met locations)

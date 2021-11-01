@@ -1,8 +1,8 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     public sealed class SimpleTrainerInfo : ITrainerInfo, IRegionOrigin
     {
-        public string OT { get; set; } = "PKHeX";
+        public string OT { get; set; } = "GlazePKMProgram";
         public int TID { get; set; } = 12345;
         public int SID { get; set; } = 54321;
         public int Gender { get; set; } = 0;

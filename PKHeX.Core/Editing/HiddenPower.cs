@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for calculating a Hidden Power Type based on IVs and generation-format.

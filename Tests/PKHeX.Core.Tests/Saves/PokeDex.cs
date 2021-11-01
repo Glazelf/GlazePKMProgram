@@ -1,8 +1,8 @@
 ﻿using Xunit;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-namespace PKHeX.Tests.Saves
+namespace GlazePKMProgram.Tests.Saves
 {
     public static class PokeDex
     {

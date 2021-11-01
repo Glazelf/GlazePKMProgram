@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using static PKHeX.Core.Species;
-using static PKHeX.Core.Move;
+using static GlazePKMProgram.Core.Species;
+using static GlazePKMProgram.Core.Move;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static partial class Legal
     {

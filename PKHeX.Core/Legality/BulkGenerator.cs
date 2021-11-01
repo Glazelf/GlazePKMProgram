@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for generating a large amount of <see cref="PKM"/> data.

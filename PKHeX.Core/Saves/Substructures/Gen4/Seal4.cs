@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Ball Capsule Seals used in Generation 4 save files.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class LocalizationUtil
     {
@@ -103,7 +103,7 @@ namespace PKHeX.Core
         /// Applies localization to a static class containing language-specific strings.
         /// </summary>
         /// <param name="t">Type of the static class containing the desired strings.</param>
-        /// <remarks>The values used to translate the given static class are retrieved from [TypeName]_[CurrentLangCode2].txt in the resource manager of PKHeX.Core.</remarks>
+        /// <remarks>The values used to translate the given static class are retrieved from [TypeName]_[CurrentLangCode2].txt in the resource manager of GlazePKMProgram.Core.</remarks>
         /// <param name="currentCultureCode">Culture information</param>
         public static void SetLocalization(Type t, string currentCultureCode)
         {

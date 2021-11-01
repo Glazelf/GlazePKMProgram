@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Core;
-using PKHeX.Drawing;
-using PKHeX.WinForms.Controls;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
+using GlazePKMProgram.WinForms.Controls;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public sealed partial class SAV_GroupViewer : Form
     {

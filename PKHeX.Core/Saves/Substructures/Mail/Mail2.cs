@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class Mail2 : Mail
     {

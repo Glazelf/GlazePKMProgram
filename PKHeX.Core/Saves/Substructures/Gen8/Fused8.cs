@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Storage for the species that was fused into <see cref="Species.Kyurem"/> and <see cref="Species.Necrozma"/>.

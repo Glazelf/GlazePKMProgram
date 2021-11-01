@@ -11,12 +11,12 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using PKHeX.Core;
-using PKHeX.Drawing;
-using PKHeX.WinForms.Controls;
-using static PKHeX.Core.MessageStrings;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
+using GlazePKMProgram.WinForms.Controls;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class Main : Form
     {
@@ -102,9 +102,9 @@ namespace PKHeX.WinForms
         public static readonly string CryPath = Path.Combine(WorkingDirectory, "sounds");
         private static readonly string TemplatePath = Path.Combine(WorkingDirectory, "template");
         private static readonly string PluginPath = Path.Combine(WorkingDirectory, "plugins");
-        private const string ThreadPath = "https://projectpokemon.org/pkhex/";
+        private const string ThreadPath = "https://projectpokemon.org/GlazePKMProgram/";
 
-        public static readonly PKHeXSettings Settings = PKHeXSettings.GetSettings(ConfigPath);
+        public static readonly GlazePKMProgramSettings Settings = GlazePKMProgramSettings.GetSettings(ConfigPath);
 
         #endregion
 
@@ -181,7 +181,7 @@ namespace PKHeX.WinForms
             {
                 Version? latestVersion;
                 // User might not be connected to the internet or with a flaky connection.
-                try { latestVersion = UpdateUtil.GetLatestPKHeXVersion(); }
+                try { latestVersion = UpdateUtil.GetLatestGlazePKMProgramVersion(); }
 #pragma warning disable CA1031 // Do not catch general exception types
                 catch (Exception ex)
 #pragma warning restore CA1031 // Do not catch general exception types
@@ -276,7 +276,7 @@ namespace PKHeX.WinForms
         {
             if (ModifierKeys == Keys.Control) // triggered via hotkey
             {
-                if (DialogResult.Yes != WinFormsUtil.Prompt(MessageBoxButtons.YesNo, "Quit PKHeX?"))
+                if (DialogResult.Yes != WinFormsUtil.Prompt(MessageBoxButtons.YesNo, "Quit GlazePKMProgram?"))
                     return;
             }
 
@@ -366,7 +366,7 @@ namespace PKHeX.WinForms
                 C_SAV.ReloadSlots();
         }
 
-        private void ReloadProgramSettings(PKHeXSettings settings)
+        private void ReloadProgramSettings(GlazePKMProgramSettings settings)
         {
             Draw.LoadBrushes();
             PKME_Tabs.Unicode = Unicode = settings.Display.Unicode;
@@ -1153,7 +1153,7 @@ namespace PKHeX.WinForms
                 }
             }
 
-            PKHeXSettings.SaveSettings(ConfigPath, Settings);
+            GlazePKMProgramSettings.SaveSettings(ConfigPath, Settings);
         }
 
         #endregion

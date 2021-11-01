@@ -57,10 +57,10 @@
  - Introducing Sword/Shield support! Thanks @SciresM and @sora10pls for troubleshooting prior to release!
  - - Initial Legality Checking is provided. Please refer to the forums when reporting legality issues for Generation 8 parsing.
  - - Bag editing, Pokédex, and Trainer Info editing is provided.
- - Changed: PKHeX.Core.dll is now merged in with the main executable.
- - Changed: PKHeX.WinForms spriting has now been split into a separate project. On build, it is merged into the main executable.
+ - Changed: GlazePKMProgram.Core.dll is now merged in with the main executable.
+ - Changed: GlazePKMProgram.WinForms spriting has now been split into a separate project. On build, it is merged into the main executable.
  - Changed: .NET Core 3 support added for WinForms builds. .NET Framework 4.6 build is still the main build option.
- - Changed: Project internals now use C# language version 8, the latest. Nullable compiler checks enabled for PKHeX.Core.
+ - Changed: Project internals now use C# language version 8, the latest. Nullable compiler checks enabled for GlazePKMProgram.Core.
  - Removed: Mono build no longer required due to font loading rework. No platform specific code remains!
  - Changed: Slot grids are now generated instead of manually created. Party and Battle Box now appear differently.
  - Changed: Encounter Slot generators now use game-specific logic to yield slots.
@@ -77,7 +77,7 @@
  - - Changed: Slot drag & drop / update notifications has been rewritten.
  - - Changed: SAV4 split into SAV4DP/SAV4Pt/SAV4HGSS
  - - Changed: Encounter Area -> encounter slot yielding behavior is now unique per Area generation-type.
- - - Changed: Some PKHeX.Core api method signatures have changed / will change in next update.
+ - - Changed: Some GlazePKMProgram.Core api method signatures have changed / will change in next update.
  - Added: Undo/Redo of party slot changes.
  - Added: Gen4 (HGSS) Pokegear rolodex editing. Thanks @sora10pls!
  - Fixed: Gen5 daycare slot 2 reading, and EXP reading.
@@ -90,7 +90,7 @@
  - - Added: More Colosseum met locations for shadow encounters. Thanks @ReignOfComputer!
  - - Changed: Distribution Super Training missions are now flagged as Invalid (never released).
  - Added: Hovering over a slot in the Database now shows a preview tooltip like the Box view. Thanks SadisticMystic!
- - Changed: Misc internal changes to logic (migrating into PKHeX.Core and solidifying abstractions).
+ - Changed: Misc internal changes to logic (migrating into GlazePKMProgram.Core and solidifying abstractions).
  - Fixed: Bad filenames on external media no longer cause exceptions when detecting a savefile.
  - Fixed: Suggesting moves for certain VC encounters no longer cause exceptions.
  - Fixed: Celebrate, Happy Hour, Hold Hands, and partner moves are now allowed for LGPE move selection.

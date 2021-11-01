@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms.Controls
+﻿namespace GlazePKMProgram.WinForms.Controls
 {
     partial class BoxEditor
     {
@@ -31,7 +31,7 @@
             this.B_BoxRight = new System.Windows.Forms.Button();
             this.B_BoxLeft = new System.Windows.Forms.Button();
             this.CB_BoxSelect = new System.Windows.Forms.ComboBox();
-            this.BoxPokeGrid = new PKHeX.WinForms.Controls.PokeGrid();
+            this.BoxPokeGrid = new GlazePKMProgram.WinForms.Controls.PokeGrid();
             this.SuspendLayout();
             // 
             // B_BoxRight

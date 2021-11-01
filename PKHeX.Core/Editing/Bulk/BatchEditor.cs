@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using static PKHeX.Core.MessageStrings;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Carries out a batch edit and contains information summarizing the results.

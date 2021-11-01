@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
 #pragma warning disable CA1819 // Properties should not return arrays
     public sealed class BattleTree7 : SaveBlock

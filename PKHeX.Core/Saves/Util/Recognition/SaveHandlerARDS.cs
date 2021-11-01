@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for recognizing .duc save files dumped via an ARDS.

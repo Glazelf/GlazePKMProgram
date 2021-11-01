@@ -1,6 +1,6 @@
-﻿using PKHeX.Core;
-using PKHeX.Core.Searching;
-using PKHeX.WinForms.Controls;
+﻿using GlazePKMProgram.Core;
+using GlazePKMProgram.Core.Searching;
+using GlazePKMProgram.WinForms.Controls;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -8,11 +8,11 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PKHeX.Drawing;
-using PKHeX.WinForms.Properties;
-using static PKHeX.Core.MessageStrings;
+using GlazePKMProgram.Drawing;
+using GlazePKMProgram.WinForms.Properties;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class SAV_Encounters : Form
     {

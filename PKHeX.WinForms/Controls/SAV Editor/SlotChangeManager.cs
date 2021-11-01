@@ -7,10 +7,10 @@ using System.Linq;
 using System.Media;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PKHeX.Core;
-using PKHeX.Drawing;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     /// <summary>
     /// Orchestrates the movement of slots within the GUI.

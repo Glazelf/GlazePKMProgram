@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// <seealso cref="EncounterSlot"/> that contains information about what Index it is within the <seealso cref="EncounterArea"/>'s type-group of slots.

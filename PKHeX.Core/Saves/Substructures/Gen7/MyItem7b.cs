@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class MyItem7b : MyItem
     {

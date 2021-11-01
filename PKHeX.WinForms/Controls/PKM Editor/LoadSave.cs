@@ -1,8 +1,8 @@
 ﻿using System;
-using PKHeX.Core;
-using PKHeX.Drawing;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public partial class PKMEditor
     {

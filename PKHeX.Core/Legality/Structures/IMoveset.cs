@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Interface that exposes a Moveset for the object.

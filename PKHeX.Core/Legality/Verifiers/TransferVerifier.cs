@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using static PKHeX.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verifies the transfer data for a <see cref="PKM"/> that has been irreversably transferred forward.

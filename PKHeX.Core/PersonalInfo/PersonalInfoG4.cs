@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// <see cref="PersonalInfo"/> class with values from Generation 4 games.

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using PKHeX.Core;
-using PKHeX.Drawing;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
 
-using static PKHeX.Core.MessageStrings;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public partial class BoxEditor : UserControl, ISlotViewer<PictureBox>
     {

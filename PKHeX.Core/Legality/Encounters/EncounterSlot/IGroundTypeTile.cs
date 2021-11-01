@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Contains information pertaining the floor tile the <see cref="IEncounterTemplate"/> was obtained on in <see cref="GameVersion.Gen4"/>.

@@ -1,7 +1,7 @@
 ﻿using System;
-using static PKHeX.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Egg Moveset Building Order for Generation 2

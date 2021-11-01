@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.GameVersion;
+﻿using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     // Distribution Nest Encounters (BCAT)
     internal static partial class Encounters8Nest

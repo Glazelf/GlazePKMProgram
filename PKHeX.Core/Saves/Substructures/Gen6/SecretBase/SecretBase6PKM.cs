@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public class SecretBase6PKM
     {

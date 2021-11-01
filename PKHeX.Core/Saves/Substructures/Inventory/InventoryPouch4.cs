@@ -1,6 +1,6 @@
 using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Inventory Pouch with 4 bytes per item (u16 ID, u16 count)

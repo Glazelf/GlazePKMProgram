@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Provides details about box wallpaper values within the save file.

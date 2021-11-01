@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.Species;
+﻿using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Exposes details about the quality of a potential match compared to an input <see cref="PKM"/>.

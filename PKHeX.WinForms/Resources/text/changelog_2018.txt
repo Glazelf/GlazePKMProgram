@@ -86,7 +86,7 @@
  - Fixed: PK3 Deoxys stats now use the current savefile base stats. Thanks @iiippppk!
  - Fixed: PK2->PK1 from boxdata format now sets the Level and HP properties of the PK1. Thanks HaxAras!
  - Internals: Pikachu Cosplay and Pikachu-Cap alt forme sprite resource names have been swapped for future usage. No functional change.
- - Internals: A small amount of logic from the WinForms project has been relocated to PKHeX.Core, along with minor Core reorganization.
+ - Internals: A small amount of logic from the WinForms project has been relocated to GlazePKMProgram.Core, along with minor Core reorganization.
  - Internals: Misc speed improvements in legality checking have been incorporated.
  - Internals: Improved speed of PKM Editor interface related to loading & checking legality from tabs. Should be pretty much lag free!
 
@@ -134,14 +134,14 @@
  - Added: Box Sort/Modify/Delete quick action tools. Right click the Box tab to see available options.
  - Added: Hovering over a Pokémon slot (sprite) now shows a Showdown style text preview of the contents.
  - Added: Hovering over a Pokémon slot (sprite) now plays the pkm's cry. 
- - - Put the (species#-form#.wav) files in a folder named "sounds" in the same folder as PKHeX.exe.
+ - - Put the (species#-form#.wav) files in a folder named "sounds" in the same folder as GlazePKMProgram.exe.
  - Added: Gen6 Memory Feeling legality. Only certain 'feeling' values are legal for a given memory index.
  - Added: Gen5 Entree Forest editor & randomizer. Populates with legal dream world encounters.
  - Added: Gen4 Battle Revolution party data can now be viewed & edited.
  - Added: Work in progress Encounter -> PKM generator updated to generate all encounters legally. More to come...
  - Changed: Gen7+ origin Pokémon now show the Gen7 TID/SID style instead of prior gen 16 bit values.
- - Changed: Batch Editor logic relocated to PKHeX.Core for reusability.
- - Changed: Simple pkm editing logic relocated to PKHeX.Core (CommonEdits) for reusability.
+ - Changed: Batch Editor logic relocated to GlazePKMProgram.Core for reusability.
+ - Changed: Simple pkm editing logic relocated to GlazePKMProgram.Core (CommonEdits) for reusability.
  - Fixed: Gen3 FRLG 'Security' value offset fixed (was misidentified as the Berry Powder. Thanks HaiPhuong!
  - Fixed: Using the Gen4 Misc editor no longer corrupts Pokétch data.
  - Fixed: Misc Showdown set parsing/export issues. Now handles Gen2 & Gen3 context-sensitive exports (held items).
@@ -149,7 +149,7 @@
 
 18/04/18 - New Update: (63045) [1168857]
  - Translations:
- - - Resources are now more accessible for translation. Want to better localize PKHeX to your native language?
+ - - Resources are now more accessible for translation. Want to better localize GlazePKMProgram to your native language?
  - - Locate the following files in the repo for the desired language (example: English)
  - - LegalityCheckStrings_en.txt (Legality parsing messages)
  - - MessageStrings_en.txt (Program message popup/alerts)
@@ -390,8 +390,8 @@
 
 17/05/30 - New Update: (37561) [586892]
  - Program Internals:
- - - PKHeX now uses C# 7 language features.
- - - PKHeX.Core is now a .NET Standard class library.
+ - - GlazePKMProgram now uses C# 7 language features.
+ - - GlazePKMProgram.Core is now a .NET Standard class library.
  - Legality:
  - - Changed: Refactored internals to better handle matching of encounters and future plans.
  - - Added: PIDIV method detection. For now, the only legality flagging present is for Cosseum/XD starters.
@@ -480,7 +480,7 @@
  - Fixed: Gen3/4: GameCube/Wii format (xk3/ck3/bk4) transfers no longer incorrectly transfer IVs.
  - Fixed: Gen2: Money/Coin editing now shows the correct value.
  - Fixed: Gen2: Hidden Power type calculation now calculates the correct type. Thanks SciresM!
- - Fixed: Editing Pumpkaboo forms with the PKHeX German Language translation no longer throw errors.
+ - Fixed: Editing Pumpkaboo forms with the GlazePKMProgram German Language translation no longer throw errors.
  - Fixed: Importing a shiny showdown from a tab other than Main now sets the shiny status correctly.
 
 17/02/25 - New Update: (28838) [389066]
@@ -562,7 +562,7 @@
  - Fixed: FR/LG inventory cap increased from 95->995. Thanks Ammako!
  - Fixed: Wonder Card Gifts without CardIDs now save properly.
  - Internals: Split program into .dll and .exe for code reuse on other projects.
- - Thanks to everyone who has contributed to PKHeX's development over the past month! Too many people to thank :)
+ - Thanks to everyone who has contributed to GlazePKMProgram's development over the past month! Too many people to thank :)
 
 16/12/31 - New Update: (123265) [218395]
  - Legality: Added Poké Pelago encounter cases.
@@ -740,7 +740,7 @@
  - Fixed: Multiple edge cases for legality checks. Thanks Eskuero, chenzw95, Wheth, Gastly, Asia81, rinnegan, Host1126
  - Fixed: Crash when putting spaces in number text boxes or importing wc6 to ORAS demo saves.
  - Fixed: wc6full imports will now generate a received date.
- - Fixed: Starting the program without a save file will load default values (OT: "PKHeX", etc).
+ - Fixed: Starting the program without a save file will load default values (OT: "GlazePKMProgram", etc).
  - Fixed: Pokémon League indication for X/Y and OR/AS, and Poketransporter strings. Thanks chenzw95 & Odaxis!
  - Fixed: Changing Encounter Type of files from Platinum.
  - Removed: Code Generator, use save cache instead (CyberGadget users).
@@ -786,7 +786,7 @@
  - - SHIFT click the Preview Sprite to export QR.
  - - ALT click the Preview Sprite to import QR.
  - Added: Wondercard database loading for updated Legality checking. 
- - - Create a "wc6" folder in the same folder as PKHeX.exe, and add in wc6 files.
+ - - Create a "wc6" folder in the same folder as GlazePKMProgram.exe, and add in wc6 files.
  - Added: Database Viewer: Scrolling over a PictureBox now scrolls the view.
  - Added: Database Viewer: Legality filters for Legal Only/Illegal Only. Helpful for finding hacks!
  - Added: wc6full loading support.
@@ -878,7 +878,7 @@
  - - When setting to your save file, Memories and Handler will be updated (if required). Can be disabled via Options.
  - - When setting to your save file, Pokédex entries will be updated (if required). Can be disabled via Options.
  - - 508 EVs will now show up as Yellow in the total EVs box.
- - - PKHeX will now alert the user if the Tabs Pokémon has no moves.
+ - - GlazePKMProgram will now alert the user if the Tabs Pokémon has no moves.
  - - Blank spaces between moves will now be removed.
  - - Click Events to the Stat Labels and MaskedTextBoxes. More info in the shortcuts window. Thanks sora10pls!
  - - Drag & Drop now works more efficiently. Dropping from external sources to a box slot now loads to that slot (instead of tabs).
@@ -1021,7 +1021,7 @@
 15/01/01 - New Update: (5300)
  - Added: Powersaves decryption via xorpads.
  - - After Using the Powersaves code-decryption method on a FF'd save file, simply rename the powersaves backup to include the word "xorpad".
- - - Place the xorpad in either the same folder as PKHeX or in the same folder where you will load the powersaves from.
+ - - Place the xorpad in either the same folder as GlazePKMProgram or in the same folder where you will load the powersaves from.
  - Added: Loading of manually decrypted ORAS Powersave. Thanks Leanny!
  - Added: Alt Clicking the Open Temp folder will open the savedatafiler folder if it exists.
  - Added: Viewing of the second daycare in ORAS; click anywhere in the groupbox to trigger the switching code. Thanks Leanny!
@@ -1127,7 +1127,7 @@
 
 14/08/31 - New Update: (3900)
  - Added: Cyber screwup notification upon saving. 
- - - If a 0x200 byte chunk is all 0xFF, your save will be corrupt when you write it back (not PKHeX's fault).
+ - - If a 0x200 byte chunk is all 0xFF, your save will be corrupt when you write it back (not GlazePKMProgram's fault).
  - Added: All Item 'cheat', activated by holding ALT when clicking the ITEMS button within the Inventory Menu.
  - Added: Full Pokedex 'cheat' now functions properly. Due to Cyber's screwup, do not obtain an Italian Petlil.
  - Added: All Accessories 'cheat' to the Appearance section of Trainer Info
@@ -1223,7 +1223,7 @@
 14/07/28 - New Update:(2): (350)
  - Added: Code Import to load Cyber Gadget Party/Box codes posted online.
  - [SAV Tabs] -> [Tools] -> [Import PK6 from Code]
- - Added: Import of 3rd & 4th Gen PKM Files (.3gpkm/.pkm); PKHeX now does 3/4/5->6.
+ - Added: Import of 3rd & 4th Gen PKM Files (.3gpkm/.pkm); GlazePKMProgram now does 3/4/5->6.
  - Functionality is from my Time Machine transfer tool ~ "pk2pk".
  - Changed: Import of past gen files will use the OT Data of the save file, if there is one loaded.
 
@@ -1309,7 +1309,7 @@
  - Added: Translation support of all fields/combobox for every in-game language. This includes memories and characteristics. Also...
  - Added: Translation support of interface via supplied .txt files. With the above change and this, the program can be fully localized (besides Encounter Types, 3DS Country Names, savegame related UI or popup messages.)
  - Added: Appending the exe's file name with -en or any other supported language (ja, ko, de, it, es, fr) will auto-load the program with the language.
- - Added: Mass Import / Export of box contents by either dragging a folder into the window or loading/saving-to a folder. PKHeX will allow users to create a database in the same directory as the executable to store all dumped pk6 files, or allow users to specify where to dump/load from.
+ - Added: Mass Import / Export of box contents by either dragging a folder into the window or loading/saving-to a folder. GlazePKMProgram will allow users to create a database in the same directory as the executable to store all dumped pk6 files, or allow users to specify where to dump/load from.
 
 14/05/18 - New Update: (920)
  - Memory Interface redesigned, includes Memory Readouts.

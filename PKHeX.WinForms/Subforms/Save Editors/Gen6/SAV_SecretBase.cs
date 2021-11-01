@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
-using PKHeX.Core;
-using static PKHeX.Core.MessageStrings;
+using GlazePKMProgram.Core;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class SAV_SecretBase : Form
     {

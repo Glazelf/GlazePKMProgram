@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.ComponentModel;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class HallOfFameTime8 : SaveBlock
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 1 Evolution Branch Entries

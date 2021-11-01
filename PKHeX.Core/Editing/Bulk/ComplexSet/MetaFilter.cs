@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <inheritdoc cref="IComplexFilter"/>
     public sealed class MetaFilter : IComplexFilterMeta

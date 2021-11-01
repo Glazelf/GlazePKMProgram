@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.Species;
+using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Tables used for <see cref="BallVerifier"/>

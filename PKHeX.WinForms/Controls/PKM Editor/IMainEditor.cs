@@ -1,6 +1,6 @@
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public interface IMainEditor : IPKMView
     {

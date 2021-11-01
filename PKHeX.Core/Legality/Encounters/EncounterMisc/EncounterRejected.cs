@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Rejected Encounter Data containing a reason why the encounter was rejected (not compatible).

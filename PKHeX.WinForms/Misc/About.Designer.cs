@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class About
     {
@@ -110,7 +110,7 @@
             this.ClientSize = new System.Drawing.Size(494, 372);
             this.Controls.Add(this.L_Thanks);
             this.Controls.Add(this.TC_About);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(910, 710);
             this.MinimizeBox = false;

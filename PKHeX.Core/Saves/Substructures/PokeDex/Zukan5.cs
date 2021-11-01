@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Pokédex structure used for Generation 5 games.

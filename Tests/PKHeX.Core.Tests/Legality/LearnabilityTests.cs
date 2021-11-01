@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
 
-namespace PKHeX.Tests.Legality
+namespace GlazePKMProgram.Tests.Legality
 {
     public static class LearnabilityTests
     {

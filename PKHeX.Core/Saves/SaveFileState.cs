@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Tracks information about modifications made to a <see cref="SaveFile"/>

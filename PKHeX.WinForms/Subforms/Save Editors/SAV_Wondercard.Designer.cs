@@ -1,4 +1,4 @@
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     partial class SAV_Wondercard
     {
@@ -256,7 +256,7 @@ namespace PKHeX.WinForms
             this.Controls.Add(this.B_Output);
             this.Controls.Add(this.B_Cancel);
             this.Controls.Add(this.B_Save);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(700, 600);
             this.MinimizeBox = false;

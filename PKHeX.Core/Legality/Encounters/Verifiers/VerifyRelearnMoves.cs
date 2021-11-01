@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using static PKHeX.Core.LegalityCheckStrings;
-using static PKHeX.Core.ParseSettings;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.ParseSettings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic to verify the current <see cref="PKM.RelearnMoves"/>.

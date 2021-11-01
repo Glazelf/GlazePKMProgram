@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 3 <see cref="SaveFile"/> object that reads exported data for Generation 3 PokeStock .gst dumps.

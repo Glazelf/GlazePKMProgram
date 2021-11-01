@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
 
-namespace PKHeX.Tests.Simulator
+namespace GlazePKMProgram.Tests.Simulator
 {
     public class ShowdownSetTests
     {
@@ -32,7 +32,7 @@ namespace PKHeX.Tests.Simulator
             var pk7 = new PK7 {Species = set.Species, Form = set.Form, Moves = set.Moves};
             var encounters = EncounterMovesetGenerator.GenerateEncounters(pk7, set.Moves, GameVersion.MN);
             Assert.True(!encounters.Any());
-            pk7.HT_Name = "PKHeX";
+            pk7.HT_Name = "GlazePKMProgram";
             encounters = EncounterMovesetGenerator.GenerateEncounters(pk7, set.Moves, GameVersion.MN);
             var first = encounters.FirstOrDefault();
             Assert.NotNull(first);
@@ -96,7 +96,7 @@ namespace PKHeX.Tests.Simulator
         public void SimulatorGetSplitBreed()
         {
             var set = new ShowdownSet(SetMunchSnorLax);
-            var pk7 = new PK7 { Species = set.Species, Form = set.Form, Moves = set.Moves, HT_Name = "PKHeX" }; // !! specify the HT name, we need tutors for this one
+            var pk7 = new PK7 { Species = set.Species, Form = set.Form, Moves = set.Moves, HT_Name = "GlazePKMProgram" }; // !! specify the HT name, we need tutors for this one
             var encs = EncounterMovesetGenerator.GenerateEncounters(pk7, set.Moves, GameVersion.SN).ToList();
             Assert.True(encs.Count > 0);
             Assert.True(encs.All(z => z.Species > 150));
@@ -113,7 +113,7 @@ namespace PKHeX.Tests.Simulator
         public void SimulatorGetVCEgg1()
         {
             var set = new ShowdownSet(SetSlowpoke12);
-            var pk7 = new PK7 { Species = set.Species, Form = set.Form, Moves = set.Moves, HT_Name = "PKHeX" };
+            var pk7 = new PK7 { Species = set.Species, Form = set.Form, Moves = set.Moves, HT_Name = "GlazePKMProgram" };
             var encs = EncounterMovesetGenerator.GenerateEncounters(pk7, set.Moves, GameVersion.GD).ToList();
             Assert.True(encs.Count > 0);
 

@@ -1,6 +1,6 @@
 using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Tuple containing data for a <see cref="Slot"/> and the originating <see cref="View"/>

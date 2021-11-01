@@ -1,9 +1,9 @@
 ﻿using System.Runtime.InteropServices;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
 
-namespace PKHeX.Tests.General
+namespace GlazePKMProgram.Tests.General
 {
     public class MarshalTests
     {

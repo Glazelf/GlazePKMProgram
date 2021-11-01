@@ -1,8 +1,8 @@
 ﻿using System.Drawing;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using QRCoder;
 
-namespace PKHeX.Drawing
+namespace GlazePKMProgram.Drawing
 {
     public static class QREncode
     {

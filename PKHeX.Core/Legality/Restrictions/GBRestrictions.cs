@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using static PKHeX.Core.Legal;
-using static PKHeX.Core.GameVersion;
-using static PKHeX.Core.Species;
+using static GlazePKMProgram.Core.Legal;
+using static GlazePKMProgram.Core.GameVersion;
+using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Miscellaneous GB Era restriction logic for legality checking

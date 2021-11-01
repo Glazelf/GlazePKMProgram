@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_Inventory
     {
@@ -145,7 +145,7 @@
             // 
             // mnuSortName
             // 
-            this.mnuSortName.Image = global::PKHeX.WinForms.Properties.Resources.alphaAZ;
+            this.mnuSortName.Image = global::GlazePKMProgram.WinForms.Properties.Resources.alphaAZ;
             this.mnuSortName.Name = "mnuSortName";
             this.mnuSortName.Size = new System.Drawing.Size(158, 22);
             this.mnuSortName.Text = "Name";
@@ -153,7 +153,7 @@
             // 
             // mnuSortNameReverse
             // 
-            this.mnuSortNameReverse.Image = global::PKHeX.WinForms.Properties.Resources.alphaZA;
+            this.mnuSortNameReverse.Image = global::GlazePKMProgram.WinForms.Properties.Resources.alphaZA;
             this.mnuSortNameReverse.Name = "mnuSortNameReverse";
             this.mnuSortNameReverse.Size = new System.Drawing.Size(158, 22);
             this.mnuSortNameReverse.Text = "Name (Reverse)";
@@ -161,7 +161,7 @@
             // 
             // mnuSortCount
             // 
-            this.mnuSortCount.Image = global::PKHeX.WinForms.Properties.Resources.numlohi;
+            this.mnuSortCount.Image = global::GlazePKMProgram.WinForms.Properties.Resources.numlohi;
             this.mnuSortCount.Name = "mnuSortCount";
             this.mnuSortCount.Size = new System.Drawing.Size(158, 22);
             this.mnuSortCount.Text = "Count";
@@ -169,7 +169,7 @@
             // 
             // mnuSortCountReverse
             // 
-            this.mnuSortCountReverse.Image = global::PKHeX.WinForms.Properties.Resources.numhilo;
+            this.mnuSortCountReverse.Image = global::GlazePKMProgram.WinForms.Properties.Resources.numhilo;
             this.mnuSortCountReverse.Name = "mnuSortCountReverse";
             this.mnuSortCountReverse.Size = new System.Drawing.Size(158, 22);
             this.mnuSortCountReverse.Text = "Count (Reverse)";
@@ -177,7 +177,7 @@
             // 
             // mnuSortIndex
             // 
-            this.mnuSortIndex.Image = global::PKHeX.WinForms.Properties.Resources.numlohi;
+            this.mnuSortIndex.Image = global::GlazePKMProgram.WinForms.Properties.Resources.numlohi;
             this.mnuSortIndex.Name = "mnuSortIndex";
             this.mnuSortIndex.Size = new System.Drawing.Size(158, 22);
             this.mnuSortIndex.Text = "Index";
@@ -185,7 +185,7 @@
             // 
             // mnuSortIndexReverse
             // 
-            this.mnuSortIndexReverse.Image = global::PKHeX.WinForms.Properties.Resources.numhilo;
+            this.mnuSortIndexReverse.Image = global::GlazePKMProgram.WinForms.Properties.Resources.numhilo;
             this.mnuSortIndexReverse.Name = "mnuSortIndexReverse";
             this.mnuSortIndexReverse.Size = new System.Drawing.Size(158, 22);
             this.mnuSortIndexReverse.Text = "Index (Reverse)";
@@ -202,7 +202,7 @@
             // 
             // giveAll
             // 
-            this.giveAll.Image = global::PKHeX.WinForms.Properties.Resources.database;
+            this.giveAll.Image = global::GlazePKMProgram.WinForms.Properties.Resources.database;
             this.giveAll.Name = "giveAll";
             this.giveAll.Size = new System.Drawing.Size(112, 22);
             this.giveAll.Text = "All";
@@ -210,7 +210,7 @@
             // 
             // giveNone
             // 
-            this.giveNone.Image = global::PKHeX.WinForms.Properties.Resources.open;
+            this.giveNone.Image = global::GlazePKMProgram.WinForms.Properties.Resources.open;
             this.giveNone.Name = "giveNone";
             this.giveNone.Size = new System.Drawing.Size(112, 22);
             this.giveNone.Text = "None";
@@ -218,7 +218,7 @@
             // 
             // giveModify
             // 
-            this.giveModify.Image = global::PKHeX.WinForms.Properties.Resources.settings;
+            this.giveModify.Image = global::GlazePKMProgram.WinForms.Properties.Resources.settings;
             this.giveModify.Name = "giveModify";
             this.giveModify.Size = new System.Drawing.Size(112, 22);
             this.giveModify.Text = "Modify";
@@ -264,7 +264,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.B_Save);
             this.Controls.Add(this.B_Cancel);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(330, 450);

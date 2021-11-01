@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Information wrapper used for Batch Editing to apply suggested values.

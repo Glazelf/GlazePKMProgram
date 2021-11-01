@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <inheritdoc cref="EncounterTrade"/>
     public abstract record EncounterTradeGB : EncounterTrade

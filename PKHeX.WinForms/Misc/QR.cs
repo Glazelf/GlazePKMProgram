@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using PKHeX.Core;
-using PKHeX.Drawing;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
 
-using static PKHeX.Core.MessageStrings;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class QR : Form
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using static PKHeX.Core.Legal;
+using static GlazePKMProgram.Core.Legal;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Information about Held Item Restrictions

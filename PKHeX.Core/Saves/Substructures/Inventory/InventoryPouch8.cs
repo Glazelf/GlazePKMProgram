@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Inventory Pouch used by <see cref="GameVersion.SWSH"/>

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Editor object that unpacks <see cref="EventWork{T}"/> into flags & work groups, and handles value get/set operations.

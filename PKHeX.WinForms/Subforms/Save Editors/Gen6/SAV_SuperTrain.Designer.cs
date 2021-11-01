@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_SuperTrain
     {
@@ -307,7 +307,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.B_Save);
             this.Controls.Add(this.B_Cancel);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(600, 630);
             this.MinimizeBox = false;

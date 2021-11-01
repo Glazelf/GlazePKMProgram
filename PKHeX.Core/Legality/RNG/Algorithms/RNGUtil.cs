@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class RNGUtil
     {

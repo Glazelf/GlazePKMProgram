@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class NetUtil
     {

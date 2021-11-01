@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms.Controls
+﻿namespace GlazePKMProgram.WinForms.Controls
 {
     partial class SAVEditor
     {
@@ -34,11 +34,11 @@
         {
             this.tabBoxMulti = new System.Windows.Forms.TabControl();
             this.Tab_Box = new System.Windows.Forms.TabPage();
-            this.Box = new PKHeX.WinForms.Controls.BoxEditor();
+            this.Box = new GlazePKMProgram.WinForms.Controls.BoxEditor();
             this.Tab_PartyBattle = new System.Windows.Forms.TabPage();
-            this.SL_Party = new PKHeX.WinForms.Controls.PartyEditor();
+            this.SL_Party = new GlazePKMProgram.WinForms.Controls.PartyEditor();
             this.Tab_Other = new System.Windows.Forms.TabPage();
-            this.SL_Extra = new PKHeX.WinForms.Controls.SlotList();
+            this.SL_Extra = new GlazePKMProgram.WinForms.Controls.SlotList();
             this.GB_Daycare = new System.Windows.Forms.GroupBox();
             this.L_XP2 = new System.Windows.Forms.Label();
             this.L_XP1 = new System.Windows.Forms.Label();

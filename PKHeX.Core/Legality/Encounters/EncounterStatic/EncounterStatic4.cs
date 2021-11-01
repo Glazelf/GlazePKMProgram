@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
-using static PKHeX.Core.GroundTilePermission;
+using static GlazePKMProgram.Core.GroundTilePermission;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 4 Static Encounter

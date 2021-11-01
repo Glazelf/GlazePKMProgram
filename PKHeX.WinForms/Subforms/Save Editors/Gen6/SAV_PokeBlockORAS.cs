@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class SAV_PokeBlockORAS : Form
     {

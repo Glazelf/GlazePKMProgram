@@ -1,8 +1,8 @@
-﻿using PKHeX.Core;
+﻿using GlazePKMProgram.Core;
 
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Drawing
+namespace GlazePKMProgram.Drawing
 {
     /// <summary>
     /// Retrieves Box Storage wallpaper metadata.

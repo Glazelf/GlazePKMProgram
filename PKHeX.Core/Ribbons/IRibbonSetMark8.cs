@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary> Marks introduced in Generation 8 </summary>
     public interface IRibbonSetMark8

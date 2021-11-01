@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.Encounters3Teams;
+﻿using static GlazePKMProgram.Core.Encounters3Teams;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     internal static class Encounters3GC
     {

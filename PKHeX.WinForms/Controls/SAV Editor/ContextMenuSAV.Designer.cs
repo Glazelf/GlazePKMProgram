@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms.Controls
+﻿namespace GlazePKMProgram.WinForms.Controls
 {
     partial class ContextMenuSAV
     {
@@ -50,7 +50,7 @@
             // 
             // mnuView
             // 
-            this.mnuView.Image = global::PKHeX.WinForms.Properties.Resources.other;
+            this.mnuView.Image = global::GlazePKMProgram.WinForms.Properties.Resources.other;
             this.mnuView.Name = "mnuView";
             this.mnuView.Size = new System.Drawing.Size(152, 22);
             this.mnuView.Text = "View";
@@ -58,7 +58,7 @@
             // 
             // mnuSet
             // 
-            this.mnuSet.Image = global::PKHeX.WinForms.Properties.Resources.exit;
+            this.mnuSet.Image = global::GlazePKMProgram.WinForms.Properties.Resources.exit;
             this.mnuSet.Name = "mnuSet";
             this.mnuSet.Size = new System.Drawing.Size(152, 22);
             this.mnuSet.Text = "Set";
@@ -66,7 +66,7 @@
             // 
             // mnuDelete
             // 
-            this.mnuDelete.Image = global::PKHeX.WinForms.Properties.Resources.nocheck;
+            this.mnuDelete.Image = global::GlazePKMProgram.WinForms.Properties.Resources.nocheck;
             this.mnuDelete.Name = "mnuDelete";
             this.mnuDelete.Size = new System.Drawing.Size(152, 22);
             this.mnuDelete.Text = "Delete";
@@ -74,7 +74,7 @@
             // 
             // mnuLegality
             // 
-            this.mnuLegality.Image = global::PKHeX.WinForms.Properties.Resources.export;
+            this.mnuLegality.Image = global::GlazePKMProgram.WinForms.Properties.Resources.export;
             this.mnuLegality.Name = "mnuLegality";
             this.mnuLegality.Size = new System.Drawing.Size(152, 22);
             this.mnuLegality.Text = "Legality";

@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     sealed partial class SAV_BoxList
     {
@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(250, 185);
             this.Controls.Add(this.FLP_Boxes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SAV_BoxList";

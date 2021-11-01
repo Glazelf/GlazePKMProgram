@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Type of items the <see cref="InventoryPouch"/> contains.

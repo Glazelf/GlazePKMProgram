@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Drawing;
 using System.Linq;
-using PKHeX.Core;
-using PKHeX.Drawing.Properties;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing.Properties;
 
-namespace PKHeX.Drawing
+namespace GlazePKMProgram.Drawing
 {
     public static class SpriteUtil
     {

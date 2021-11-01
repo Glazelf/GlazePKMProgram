@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Properties common to RS &amp; Emerald save files.

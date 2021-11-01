@@ -3,7 +3,7 @@
 #pragma warning disable IDE0051 // Remove unused private members
 #pragma warning disable RCS1213 // Remove unused member declaration.
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Information for Accessing individual blocks within a <see cref="SAV8SWSH"/>.

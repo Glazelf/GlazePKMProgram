@@ -1,10 +1,10 @@
 ﻿using System.Diagnostics;
 using System.IO;
 using System.Media;
-using PKHeX.Core;
-using PKHeX.Drawing;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public sealed class CryPlayer
     {

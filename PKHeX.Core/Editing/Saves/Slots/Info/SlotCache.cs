@@ -1,6 +1,6 @@
 using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Contains slot data and metadata indicating where the <see cref="PKM"/> originated from.

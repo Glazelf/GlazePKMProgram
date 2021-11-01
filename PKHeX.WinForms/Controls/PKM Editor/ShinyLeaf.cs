@@ -2,10 +2,10 @@
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Drawing;
-using PKHeX.WinForms.Properties;
+using GlazePKMProgram.Drawing;
+using GlazePKMProgram.WinForms.Properties;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public partial class ShinyLeaf : UserControl
     {

@@ -3,7 +3,7 @@ using System.Linq;
 using FluentAssertions;
 using Xunit;
 
-namespace PKHeX.Tests.Util
+namespace GlazePKMProgram.Tests.Util
 {
     public class ConvertUtilTests
     {

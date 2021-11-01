@@ -1,11 +1,11 @@
 ﻿using System;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using System.IO;
 using System.Linq;
 using Xunit;
 
-namespace PKHeX.Tests.Legality
+namespace GlazePKMProgram.Tests.Legality
 {
     public class LegalityTest
     {

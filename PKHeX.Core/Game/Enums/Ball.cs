@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Ball IDs for the corresponding English ball name.

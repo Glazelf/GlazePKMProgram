@@ -1,6 +1,6 @@
 using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Party Data <see cref="ISlotInfo"/>

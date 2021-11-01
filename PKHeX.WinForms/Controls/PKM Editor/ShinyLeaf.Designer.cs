@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms.Controls
+﻿namespace GlazePKMProgram.WinForms.Controls
 {
     partial class ShinyLeaf
     {
@@ -54,7 +54,7 @@
             // 
             // CHK_1
             // 
-            this.CHK_1.Image = global::PKHeX.WinForms.Properties.Resources.leaf;
+            this.CHK_1.Image = global::GlazePKMProgram.WinForms.Properties.Resources.leaf;
             this.CHK_1.Location = new System.Drawing.Point(0, 0);
             this.CHK_1.Margin = new System.Windows.Forms.Padding(0);
             this.CHK_1.Name = "CHK_1";
@@ -65,7 +65,7 @@
             // 
             // CHK_2
             // 
-            this.CHK_2.Image = global::PKHeX.WinForms.Properties.Resources.leaf;
+            this.CHK_2.Image = global::GlazePKMProgram.WinForms.Properties.Resources.leaf;
             this.CHK_2.Location = new System.Drawing.Point(40, 0);
             this.CHK_2.Margin = new System.Windows.Forms.Padding(0);
             this.CHK_2.Name = "CHK_2";
@@ -76,7 +76,7 @@
             // 
             // CHK_3
             // 
-            this.CHK_3.Image = global::PKHeX.WinForms.Properties.Resources.leaf;
+            this.CHK_3.Image = global::GlazePKMProgram.WinForms.Properties.Resources.leaf;
             this.CHK_3.Location = new System.Drawing.Point(80, 0);
             this.CHK_3.Margin = new System.Windows.Forms.Padding(0);
             this.CHK_3.Name = "CHK_3";
@@ -87,7 +87,7 @@
             // 
             // CHK_4
             // 
-            this.CHK_4.Image = global::PKHeX.WinForms.Properties.Resources.leaf;
+            this.CHK_4.Image = global::GlazePKMProgram.WinForms.Properties.Resources.leaf;
             this.CHK_4.Location = new System.Drawing.Point(0, 30);
             this.CHK_4.Margin = new System.Windows.Forms.Padding(0);
             this.CHK_4.Name = "CHK_4";
@@ -98,7 +98,7 @@
             // 
             // CHK_5
             // 
-            this.CHK_5.Image = global::PKHeX.WinForms.Properties.Resources.leaf;
+            this.CHK_5.Image = global::GlazePKMProgram.WinForms.Properties.Resources.leaf;
             this.CHK_5.Location = new System.Drawing.Point(40, 30);
             this.CHK_5.Margin = new System.Windows.Forms.Padding(0);
             this.CHK_5.Name = "CHK_5";
@@ -109,7 +109,7 @@
             // 
             // CHK_C
             // 
-            this.CHK_C.Image = global::PKHeX.WinForms.Properties.Resources.crown;
+            this.CHK_C.Image = global::GlazePKMProgram.WinForms.Properties.Resources.crown;
             this.CHK_C.Location = new System.Drawing.Point(80, 30);
             this.CHK_C.Margin = new System.Windows.Forms.Padding(0);
             this.CHK_C.Name = "CHK_C";

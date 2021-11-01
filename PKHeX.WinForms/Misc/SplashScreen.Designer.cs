@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SplashScreen
     {
@@ -41,7 +41,7 @@
             this.L_Status.Name = "L_Status";
             this.L_Status.Size = new System.Drawing.Size(105, 13);
             this.L_Status.TabIndex = 0;
-            this.L_Status.Text = "Starting up PKHeX...";
+            this.L_Status.Text = "Starting up GlazePKMProgram...";
             // 
             // L_Site
             // 
@@ -54,7 +54,7 @@
             // 
             // PB_Icon
             // 
-            this.PB_Icon.BackgroundImage = global::PKHeX.WinForms.Properties.Resources.Icon.ToBitmap();
+            this.PB_Icon.BackgroundImage = global::GlazePKMProgram.WinForms.Properties.Resources.Icon.ToBitmap();
             this.PB_Icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PB_Icon.Location = new System.Drawing.Point(2, 3);
             this.PB_Icon.Name = "PB_Icon";
@@ -71,7 +71,7 @@
             this.Controls.Add(this.L_Site);
             this.Controls.Add(this.L_Status);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.Name = "SplashScreen";
             this.Opacity = 0.5D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

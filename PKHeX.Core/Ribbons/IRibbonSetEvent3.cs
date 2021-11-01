@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary> Ribbons introduced in Generation 3 for Special Events </summary>
     public interface IRibbonSetEvent3

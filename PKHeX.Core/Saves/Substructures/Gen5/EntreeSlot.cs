@@ -1,6 +1,6 @@
 using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 5 <see cref="EntreeForest"/> slot

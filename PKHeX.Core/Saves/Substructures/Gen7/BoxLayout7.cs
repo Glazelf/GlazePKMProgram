@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class BoxLayout7 : SaveBlock, IBoxDetailName, IBoxDetailWallpaper, ITeamIndexSet
     {

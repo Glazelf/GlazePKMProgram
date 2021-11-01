@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
 
-namespace PKHeX.Tests.Saves
+namespace GlazePKMProgram.Tests.Saves
 {
     public class SwishCryptoTests
     {
@@ -15,7 +15,7 @@ namespace PKHeX.Tests.Saves
         [Fact]
         public void CanMakeBlankSAV8()
         {
-            var sav = SaveUtil.GetBlankSAV(GameVersion.SW, "PKHeX");
+            var sav = SaveUtil.GetBlankSAV(GameVersion.SW, "GlazePKMProgram");
             sav.Should().NotBeNull();
         }
     }

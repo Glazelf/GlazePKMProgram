@@ -2,10 +2,10 @@ using System;
 using System.Drawing;
 using System.Timers;
 using System.Windows.Forms;
-using PKHeX.Drawing;
+using GlazePKMProgram.Drawing;
 using Timer = System.Timers.Timer;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public sealed class BitmapAnimator : Timer
     {

@@ -4,11 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PKHeX.Core;
-using PKHeX.Drawing;
-using static PKHeX.Core.MessageStrings;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class ReportGrid : Form
     {

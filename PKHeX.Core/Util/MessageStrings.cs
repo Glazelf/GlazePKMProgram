@@ -1,6 +1,6 @@
 ﻿// ReSharper disable AutoPropertyCanBeMadeGetOnly.Global
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generic Message Strings used for messages shown to the user.
@@ -14,7 +14,7 @@ namespace PKHeX.Core
         public static string MsgProgramIllegalModeActive { get; set; } = "Illegal mode activated.";
         public static string MsgProgramUpdateAvailable { get; set; } = "New Update Available!";
         public static string MsgProgramCloseUnsaved { get; set; } = "Any unsaved changes will be lost.";
-        public static string MsgProgramCloseConfirm { get; set; } = "Are you sure you want to close PKHeX?";
+        public static string MsgProgramCloseConfirm { get; set; } = "Are you sure you want to close GlazePKMProgram?";
         public static string MsgProgramSaveFileConfirm { get; set; } = "Are you sure you want to load a new save file?";
         public static string MsgProgramError { get; set; } = "ERROR";
         public static string MsgProgramErrorExpectedHex { get; set; } = "Expected Text containing only the following characters (0-9, A-F).";
@@ -50,7 +50,7 @@ namespace PKHeX.Core
         public static string MsgFileLoadFailAutoAdvise { get; set; } = "It is advised to manually remove bad filenames from the folder.";
         public static string MsgFileLoadFailAutoCause { get; set; } = "This is likely caused by Homebrew creating invalid filenames.";
         public static string MsgFileLoadVersionDetect { get; set; } = "Generation {0} Save File detected.";
-        public static string MsgFileLoadEncrypted { get; set; } = "PKHeX only edits decrypted save files.";
+        public static string MsgFileLoadEncrypted { get; set; } = "GlazePKMProgram only edits decrypted save files.";
         public static string MsgFileLoadEncryptedFail { get; set; } = "This save file is not decrypted.";
         public static string MsgFileLoadIncompatible { get; set; } = "Binary is not compatible with save file.";
 
@@ -71,7 +71,7 @@ namespace PKHeX.Core
         public static string MsgFileWriteProtected { get; set; } = "File's location is write protected:";
         public static string MsgFileWriteProtectedAdvice { get; set; } = "If the file is on a removable disk (SD card), please ensure the write protection switch is not set.";
         public static string MsgFileInUse { get; set; } = "Unable to load file. It could be in use by another program.";
-        public static string MsgFileUnsupported { get; set; } = "Attempted to load an unsupported file type/size. This could mean PKHeX doesn't support your save file or your save file is corrupt.";
+        public static string MsgFileUnsupported { get; set; } = "Attempted to load an unsupported file type/size. This could mean GlazePKMProgram doesn't support your save file or your save file is corrupt.";
         public static string MsgPKMUnsupported { get; set; } = "Attempted to load an unsupported file type/size. This could be caused by loading a different generation Pokemon file on an unsupported generation or your file is corrupt.";
 
         public static string MsgPKMConvertSuccess { get; set; } = "Converted from {0} to {1}.";
@@ -99,16 +99,16 @@ namespace PKHeX.Core
         public static string MsgSimulatorExportBattleBox { get; set; } = "Showdown Team (Battle Box) set to Clipboard.";
         public static string MsgSimulatorExportList { get; set; } = "Showdown Sets copied to Clipboard.";
 
-        public static string MsgBackupCreateLocation { get; set; } = "PKHeX can perform automatic backups if you create a folder with the name '{0}' in the same folder as PKHeX's executable.";
+        public static string MsgBackupCreateLocation { get; set; } = "GlazePKMProgram can perform automatic backups if you create a folder with the name '{0}' in the same folder as GlazePKMProgram's executable.";
         public static string MsgBackupCreateQuestion { get; set; } = "Would you like to create the backup folder now?";
         public static string MsgBackupDelete { get; set; } = "If you wish to no longer automatically back up save files, delete the '{0}' folder.";
         public static string MsgBackupUnable { get; set; } = "Unable to create backup folder";
         public static string MsgBackupSuccess { get; set; } = "Backup folder created!";
 
-        public static string MsgDatabase { get; set; } = "PKHeX's database was not found.";
+        public static string MsgDatabase { get; set; } = "GlazePKMProgram's database was not found.";
         public static string MsgDatabaseAdvice { get; set; } = "Please dump all boxes from a save file, then ensure the '{0}' folder exists.";
-        public static string MsgDatabaseExport { get; set; } = "Save to PKHeX's database?";
-        public static string MsgDatabaseLoad { get; set; } = "Load from PKHeX's database?";
+        public static string MsgDatabaseExport { get; set; } = "Save to GlazePKMProgram's database?";
+        public static string MsgDatabaseLoad { get; set; } = "Load from GlazePKMProgram's database?";
 
         #endregion
 

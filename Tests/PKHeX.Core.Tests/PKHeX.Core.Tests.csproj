@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\PKHeX.Core\PKHeX.Core.csproj" />
+    <ProjectReference Include="..\..\GlazePKMProgram.Core\GlazePKMProgram.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

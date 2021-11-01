@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
 #pragma warning disable CA1027 // Mark enums with FlagsAttribute
     public enum EventVarType

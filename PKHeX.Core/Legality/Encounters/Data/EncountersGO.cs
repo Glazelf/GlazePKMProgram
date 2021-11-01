@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Encounter data from <see cref="GameVersion.GO"/>, which has multiple generations of origin.

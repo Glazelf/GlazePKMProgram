@@ -1,6 +1,6 @@
 using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Contains details about an encounter that can be found in <see cref="GameVersion.GO"/>.

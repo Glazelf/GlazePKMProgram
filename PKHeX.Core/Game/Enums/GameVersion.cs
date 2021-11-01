@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Game Version ID enum shared between actual Version IDs and lumped version groupings.
@@ -205,7 +205,7 @@
         #endregion
 
         // The following values are not actually stored values in pkm data,
-        // These values are assigned within PKHeX as properties for various logic branching.
+        // These values are assigned within GlazePKMProgram as properties for various logic branching.
 
         #region Game Groupings (SaveFile type, roughly)
         /// <summary>

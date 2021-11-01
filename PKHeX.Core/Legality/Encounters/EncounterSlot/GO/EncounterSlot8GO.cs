@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Encounter Slot representing data transferred to <see cref="GameVersion.Gen8"/> (HOME).
@@ -31,7 +31,7 @@ namespace PKHeX.Core
         protected override void ApplyDetails(ITrainerInfo sav, EncounterCriteria criteria, PKM pk)
         {
             var pk8 = (PK8)pk;
-            pk8.HT_Name = "PKHeX";
+            pk8.HT_Name = "GlazePKMProgram";
             pk8.HT_Language = 2;
             pk8.CurrentHandler = 1;
 

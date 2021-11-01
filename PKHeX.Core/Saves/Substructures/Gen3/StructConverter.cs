@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class StructConverter
     {

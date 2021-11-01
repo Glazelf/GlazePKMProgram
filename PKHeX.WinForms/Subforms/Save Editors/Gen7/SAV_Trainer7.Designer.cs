@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_Trainer7
     {
@@ -99,7 +99,7 @@
             this.L_SinglesC = new System.Windows.Forms.Label();
             this.TC_Editor = new System.Windows.Forms.TabControl();
             this.Tab_Overview = new System.Windows.Forms.TabPage();
-            this.trainerID1 = new PKHeX.WinForms.Controls.TrainerID();
+            this.trainerID1 = new GlazePKMProgram.WinForms.Controls.TrainerID();
             this.CB_Vivillon = new System.Windows.Forms.ComboBox();
             this.L_Vivillon = new System.Windows.Forms.Label();
             this.GB_Stats = new System.Windows.Forms.GroupBox();
@@ -2202,7 +2202,7 @@
             this.Controls.Add(this.B_Save);
             this.Controls.Add(this.B_Cancel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SAV_Trainer7";

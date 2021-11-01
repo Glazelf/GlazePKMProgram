@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Base Class for Save Files
@@ -231,7 +231,7 @@ namespace PKHeX.Core
         public virtual int Game { get => -1; set { } }
         public virtual int TID { get; set; }
         public virtual int SID { get; set; }
-        public virtual string OT { get; set; } = "PKHeX";
+        public virtual string OT { get; set; } = "GlazePKMProgram";
         public virtual int PlayedHours { get; set; }
         public virtual int PlayedMinutes { get; set; }
         public virtual int PlayedSeconds { get; set; }

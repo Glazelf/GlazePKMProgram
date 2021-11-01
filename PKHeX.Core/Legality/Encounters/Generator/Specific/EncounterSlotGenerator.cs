@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using static PKHeX.Core.Legal;
-using static PKHeX.Core.Encounters1;
-using static PKHeX.Core.Encounters2;
-using static PKHeX.Core.Encounters3;
-using static PKHeX.Core.Encounters3GC;
-using static PKHeX.Core.Encounters4;
-using static PKHeX.Core.Encounters5;
-using static PKHeX.Core.Encounters6;
-using static PKHeX.Core.Encounters7;
-using static PKHeX.Core.Encounters7b;
-using static PKHeX.Core.Encounters8;
-using static PKHeX.Core.EncountersGO;
+using static GlazePKMProgram.Core.Legal;
+using static GlazePKMProgram.Core.Encounters1;
+using static GlazePKMProgram.Core.Encounters2;
+using static GlazePKMProgram.Core.Encounters3;
+using static GlazePKMProgram.Core.Encounters3GC;
+using static GlazePKMProgram.Core.Encounters4;
+using static GlazePKMProgram.Core.Encounters5;
+using static GlazePKMProgram.Core.Encounters6;
+using static GlazePKMProgram.Core.Encounters7;
+using static GlazePKMProgram.Core.Encounters7b;
+using static GlazePKMProgram.Core.Encounters8;
+using static GlazePKMProgram.Core.EncountersGO;
 
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class EncounterSlotGenerator
     {

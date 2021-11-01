@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <inheritdoc cref="EncounterArea" />
     /// <summary>
@@ -11,7 +11,7 @@ namespace PKHeX.Core
     public sealed record EncounterArea8g : EncounterArea, ISpeciesForm
     {
         /// <summary> Species for the area </summary>
-        /// <remarks> Due to how the encounter data is packaged by PKHeX, each species-form is grouped together. </remarks>
+        /// <remarks> Due to how the encounter data is packaged by GlazePKMProgram, each species-form is grouped together. </remarks>
         public int Species { get; }
         /// <summary> Form of the Species </summary>
         public int Form { get; }

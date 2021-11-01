@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 
-using static PKHeX.Core.EncounterTradeGenerator;
-using static PKHeX.Core.EncounterStaticGenerator;
-using static PKHeX.Core.EncounterSlotGenerator;
-using static PKHeX.Core.EncounterEggGenerator2;
-using static PKHeX.Core.EncounterMatchRating;
+using static GlazePKMProgram.Core.EncounterTradeGenerator;
+using static GlazePKMProgram.Core.EncounterStaticGenerator;
+using static GlazePKMProgram.Core.EncounterSlotGenerator;
+using static GlazePKMProgram.Core.EncounterEggGenerator2;
+using static GlazePKMProgram.Core.EncounterMatchRating;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// This class is essentially a sub-class of <see cref="EncounterGenerator"/> specialized for Gen1 & Gen2 encounters.

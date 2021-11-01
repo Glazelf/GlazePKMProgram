@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using static PKHeX.Core.EReaderBerryMatch;
+using static GlazePKMProgram.Core.EReaderBerryMatch;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Stores details about the Gen3 e-Reader Berry values.

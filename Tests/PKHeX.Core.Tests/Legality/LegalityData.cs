@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
 
-namespace PKHeX.Tests.Legality
+namespace GlazePKMProgram.Tests.Legality
 {
     public class LegalityData
     {

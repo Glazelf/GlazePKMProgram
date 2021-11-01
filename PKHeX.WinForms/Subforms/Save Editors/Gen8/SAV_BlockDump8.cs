@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Core;
-using static PKHeX.Core.SCBlockUtil;
+using GlazePKMProgram.Core;
+using static GlazePKMProgram.Core.SCBlockUtil;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class SAV_BlockDump8 : Form
     {

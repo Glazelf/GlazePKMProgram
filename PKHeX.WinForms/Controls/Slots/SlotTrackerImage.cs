@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public sealed class SlotTrackerImage
     {

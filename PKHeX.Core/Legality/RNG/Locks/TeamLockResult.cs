@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Analyzes a <see cref="TeamLock"/> to determine if the provided parameters are a valid end product.

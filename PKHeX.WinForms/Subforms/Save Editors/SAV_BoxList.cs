@@ -2,10 +2,10 @@
 using System.Diagnostics;
 using System.Windows.Forms;
 
-using PKHeX.Core;
-using PKHeX.WinForms.Controls;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.WinForms.Controls;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public sealed partial class SAV_BoxList : Form
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
 
-namespace PKHeX.Tests.Util
+namespace GlazePKMProgram.Tests.Util
 {
     public class DateUtilTests
     {

@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Encounter Type for various <see cref="GameVersion.GO"/> encounters.

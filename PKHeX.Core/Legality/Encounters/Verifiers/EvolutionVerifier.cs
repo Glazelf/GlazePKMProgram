@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using static PKHeX.Core.EvolutionRestrictions;
-using static PKHeX.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.EvolutionRestrictions;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verify Evolution Information for a matched <see cref="IEncounterable"/>

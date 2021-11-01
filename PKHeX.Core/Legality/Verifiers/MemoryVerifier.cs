@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using static PKHeX.Core.LegalityCheckStrings;
-using static PKHeX.Core.MemoryPermissions;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.MemoryPermissions;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verifies the <see cref="IMemoryOT.OT_Memory"/>, <see cref="IMemoryHT.HT_Memory"/>, and associated values.

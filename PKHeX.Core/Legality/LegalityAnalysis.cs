@@ -3,10 +3,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.LegalityAnalyzers;
-using static PKHeX.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.LegalityAnalyzers;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Legality Check object containing the <see cref="CheckResult"/> data and overview values from the parse.

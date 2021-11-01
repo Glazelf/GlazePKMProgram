@@ -1,7 +1,7 @@
 ﻿using System.Linq;
-using static PKHeX.Core.SlotType;
+using static GlazePKMProgram.Core.SlotType;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// RNG Encounter Slot Ranges to convert the [0,100) value into a slot index.

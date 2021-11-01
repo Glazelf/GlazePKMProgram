@@ -2,10 +2,10 @@
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Core;
-using static PKHeX.Core.Zukan4;
+using GlazePKMProgram.Core;
+using static GlazePKMProgram.Core.Zukan4;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class SAV_Pokedex4 : Form
     {

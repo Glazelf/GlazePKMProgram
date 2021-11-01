@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// <see cref="PersonalInfo"/> class with values from the Black 2 &amp; White 2 games.

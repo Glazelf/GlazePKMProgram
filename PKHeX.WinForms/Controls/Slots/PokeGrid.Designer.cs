@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms.Controls
+﻿namespace GlazePKMProgram.WinForms.Controls
 {
     partial class PokeGrid
     {

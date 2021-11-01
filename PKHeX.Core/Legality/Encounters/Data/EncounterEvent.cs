@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-using static PKHeX.Core.EncountersWC3;
+using static GlazePKMProgram.Core.EncountersWC3;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class EncounterEvent
     {

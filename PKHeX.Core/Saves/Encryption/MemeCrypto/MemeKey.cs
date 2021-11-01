@@ -4,7 +4,7 @@ using System.IO;
 using System.Numerics;
 using System.Security.Cryptography;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Key for crypto with <see cref="MemeCrypto"/> binaries.

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Pokédex structure used for <see cref="GameVersion.SWSH"/>.

@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Stores details about <see cref="GameVersion.GO"/> encounters relevant for legality.

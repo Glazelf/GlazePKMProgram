@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for providing suggested property values with respect to the input data.

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
 
-namespace PKHeX.Tests.Saves
+namespace GlazePKMProgram.Tests.Saves
 {
     public class MemeCryptoTests
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public abstract class MyItem : SaveBlock
     {

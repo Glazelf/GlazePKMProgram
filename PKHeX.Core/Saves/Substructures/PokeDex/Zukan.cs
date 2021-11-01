@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Base class for Pokédex logic operations.

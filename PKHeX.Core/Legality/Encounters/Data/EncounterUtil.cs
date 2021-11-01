@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Miscellaneous setup utility for legality checking <see cref="IEncounterTemplate"/> data sources.

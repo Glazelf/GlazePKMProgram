@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
 #if !(EXCLUDE_EMULATOR_FORMATS && EXCLUDE_HACKS)
     /// <summary>

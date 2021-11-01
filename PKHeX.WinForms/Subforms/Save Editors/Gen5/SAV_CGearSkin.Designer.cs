@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_CGearSkin
     {
@@ -132,7 +132,7 @@
             this.Controls.Add(this.B_Cancel);
             this.Controls.Add(this.PB_Background);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.Name = "SAV_CGearSkin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

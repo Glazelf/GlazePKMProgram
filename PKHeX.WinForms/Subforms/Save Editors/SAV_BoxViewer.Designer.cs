@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     sealed partial class SAV_BoxViewer
     {
@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.PB_BoxSwap = new System.Windows.Forms.PictureBox();
-            this.Box = new PKHeX.WinForms.Controls.BoxEditor();
+            this.Box = new GlazePKMProgram.WinForms.Controls.BoxEditor();
             ((System.ComponentModel.ISupportInitialize)(this.PB_BoxSwap)).BeginInit();
             this.SuspendLayout();
             // 
             // PB_BoxSwap
             // 
-            this.PB_BoxSwap.Image = global::PKHeX.WinForms.Properties.Resources.swapBox;
+            this.PB_BoxSwap.Image = global::GlazePKMProgram.WinForms.Properties.Resources.swapBox;
             this.PB_BoxSwap.Location = new System.Drawing.Point(0, 0);
             this.PB_BoxSwap.Name = "PB_BoxSwap";
             this.PB_BoxSwap.Size = new System.Drawing.Size(24, 24);
@@ -68,7 +68,7 @@
             this.Controls.Add(this.PB_BoxSwap);
             this.Controls.Add(this.Box);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SAV_BoxViewer";

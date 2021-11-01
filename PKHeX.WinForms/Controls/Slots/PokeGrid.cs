@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Drawing;
+using GlazePKMProgram.Drawing;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public partial class PokeGrid : UserControl
     {

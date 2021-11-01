@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class InventoryPouch7 : InventoryPouch
     {

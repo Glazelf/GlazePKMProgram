@@ -1,7 +1,7 @@
 ﻿using System;
-using static PKHeX.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verifies the <see cref="ISuperTrain.SuperTrainingMedalCount"/> and associated values.

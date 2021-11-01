@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-using static PKHeX.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public sealed class SummaryPreviewer
     {

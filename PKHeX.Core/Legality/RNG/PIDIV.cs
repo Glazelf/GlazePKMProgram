@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Stores details about a <see cref="PKM.EncryptionConstant"/> (PID) and any associated details being traced to a known correlation.

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows.Forms;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-using static PKHeX.Core.MessageStrings;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public partial class ContextMenuSAV : UserControl
     {

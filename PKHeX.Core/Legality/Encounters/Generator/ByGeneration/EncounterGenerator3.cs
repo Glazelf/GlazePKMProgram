@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-using static PKHeX.Core.MysteryGiftGenerator;
-using static PKHeX.Core.EncounterTradeGenerator;
-using static PKHeX.Core.EncounterSlotGenerator;
-using static PKHeX.Core.EncounterStaticGenerator;
-using static PKHeX.Core.EncounterEggGenerator;
-using static PKHeX.Core.EncounterMatchRating;
+using static GlazePKMProgram.Core.MysteryGiftGenerator;
+using static GlazePKMProgram.Core.EncounterTradeGenerator;
+using static GlazePKMProgram.Core.EncounterSlotGenerator;
+using static GlazePKMProgram.Core.EncounterStaticGenerator;
+using static GlazePKMProgram.Core.EncounterEggGenerator;
+using static GlazePKMProgram.Core.EncounterMatchRating;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class EncounterGenerator3
     {

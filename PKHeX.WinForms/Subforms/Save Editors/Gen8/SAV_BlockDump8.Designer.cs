@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_BlockDump8
     {
@@ -361,7 +361,7 @@
             this.ClientSize = new System.Drawing.Size(474, 341);
             this.Controls.Add(this.L_BlockName);
             this.Controls.Add(this.TC_Tabs);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(490, 380);

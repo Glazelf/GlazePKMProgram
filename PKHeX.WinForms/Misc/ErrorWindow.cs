@@ -2,7 +2,7 @@
 using System.Text;
 using System.Windows.Forms;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public sealed partial class ErrorWindow : Form
     {

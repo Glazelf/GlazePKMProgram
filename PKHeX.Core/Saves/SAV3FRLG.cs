@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 5 <see cref="SaveFile"/> object for <see cref="GameVersion.FRLG"/>.

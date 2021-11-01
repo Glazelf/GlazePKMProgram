@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Utility logic for detecting a <see cref="SaveFile"/> from various locations on the host machine.
@@ -163,7 +163,7 @@ namespace PKHeX.Core
         /// <inheritdoc cref="GetSaveFiles"/>
         public static IEnumerable<SaveFile> DetectSaveFiles() => GetSaveFiles(Environment.GetLogicalDrives(), true, CustomBackupPaths);
 
-        /// <inheritdoc cref="TryDetectSaveFile(out PKHeX.Core.SaveFile?)"/>
+        /// <inheritdoc cref="TryDetectSaveFile(out GlazePKMProgram.Core.SaveFile?)"/>
         public static bool TryDetectSaveFile([NotNullWhen(true)] out SaveFile? sav) => TryDetectSaveFile(Environment.GetLogicalDrives(), out sav);
 
         public static bool TryDetectSaveFile(IReadOnlyList<string> drives, [NotNullWhen(true)] out SaveFile? sav)

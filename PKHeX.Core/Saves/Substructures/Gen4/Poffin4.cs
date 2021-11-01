@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class Poffin4
     {

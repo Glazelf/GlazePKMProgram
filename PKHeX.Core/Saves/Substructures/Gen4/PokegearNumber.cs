@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Caller IDs for the HeartGold/SoulSilver Pokégear feature.
@@ -11,7 +11,7 @@
         Professor_Oak,
         Ethan,
         Lyra,
-        Kurt,
+        Glaze,
         Daycare_Man,
         Daycare_Lady,
         Buena,

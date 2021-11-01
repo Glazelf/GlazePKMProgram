@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Base class for a savegame data reader.

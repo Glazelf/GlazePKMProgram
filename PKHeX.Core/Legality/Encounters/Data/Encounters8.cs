@@ -1,11 +1,11 @@
-﻿using static PKHeX.Core.EncounterUtil;
-using static PKHeX.Core.Shiny;
-using static PKHeX.Core.GameVersion;
-using static PKHeX.Core.AreaWeather8;
+﻿using static GlazePKMProgram.Core.EncounterUtil;
+using static GlazePKMProgram.Core.Shiny;
+using static GlazePKMProgram.Core.GameVersion;
+using static GlazePKMProgram.Core.AreaWeather8;
 
-using static PKHeX.Core.Encounters8Nest;
+using static GlazePKMProgram.Core.Encounters8Nest;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 8 Encounters

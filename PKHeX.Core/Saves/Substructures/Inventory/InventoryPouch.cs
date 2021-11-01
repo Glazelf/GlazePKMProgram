@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Represents the data in a pouch pocket containing items of a similar type group.
@@ -232,7 +232,7 @@ namespace PKHeX.Core
 
             if (count > MaxCount)
             {
-                if (item == 797 && count >= 2) // Edge case when for some reason the item count for Z-Ring was 2 in an unedited save and set 1 after using PKHeX
+                if (item == 797 && count >= 2) // Edge case when for some reason the item count for Z-Ring was 2 in an unedited save and set 1 after using GlazePKMProgram
                     count = 2;
                 else
                     count = MaxCount; // Cap at pouch maximum

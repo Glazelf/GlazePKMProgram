@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Move specific <see cref="CheckResult"/> to contain in which Generation it was learned &amp; source.

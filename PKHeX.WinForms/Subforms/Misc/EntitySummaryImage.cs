@@ -1,8 +1,8 @@
 using System.Drawing;
-using PKHeX.Core;
-using PKHeX.Drawing;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     /// <summary>
     /// Bind-able summary object that can fetch sprite and strings that summarize a <see cref="PKM"/>.

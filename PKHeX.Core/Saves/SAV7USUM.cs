@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class SAV7USUM : SAV7, ISaveBlock7USUM
     {

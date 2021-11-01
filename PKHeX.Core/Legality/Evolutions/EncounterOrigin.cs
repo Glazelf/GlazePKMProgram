@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using static PKHeX.Core.Species;
+using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Contains logic that calculates the evolution chain of a <see cref="PKM"/>, only considering the generation it originated in.

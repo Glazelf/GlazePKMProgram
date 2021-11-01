@@ -5,11 +5,11 @@ using System.IO;
 using System.Linq;
 using System.Media;
 using System.Windows.Forms;
-using PKHeX.Core;
-using PKHeX.Drawing;
-using static PKHeX.Core.MessageStrings;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public partial class SAVEditor : UserControl, ISlotViewer<PictureBox>, ISaveFileProvider
     {

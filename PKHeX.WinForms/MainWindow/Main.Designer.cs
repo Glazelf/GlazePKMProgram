@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class Main
     {
@@ -62,8 +62,8 @@
             this.L_UpdateAvailable = new System.Windows.Forms.LinkLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.PKME_Tabs = new PKHeX.WinForms.Controls.PKMEditor();
-            this.C_SAV = new PKHeX.WinForms.Controls.SAVEditor();
+            this.PKME_Tabs = new GlazePKMProgram.WinForms.Controls.PKMEditor();
+            this.C_SAV = new GlazePKMProgram.WinForms.Controls.SAVEditor();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.dragout = new System.Windows.Forms.PictureBox();
             this.PB_Legal = new System.Windows.Forms.PictureBox();
@@ -106,7 +106,7 @@
             // 
             // Menu_Open
             // 
-            this.Menu_Open.Image = global::PKHeX.WinForms.Properties.Resources.open;
+            this.Menu_Open.Image = global::GlazePKMProgram.WinForms.Properties.Resources.open;
             this.Menu_Open.Name = "Menu_Open";
             this.Menu_Open.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.Menu_Open.ShowShortcutKeys = false;
@@ -116,7 +116,7 @@
             // 
             // Menu_Save
             // 
-            this.Menu_Save.Image = global::PKHeX.WinForms.Properties.Resources.savePKM;
+            this.Menu_Save.Image = global::GlazePKMProgram.WinForms.Properties.Resources.savePKM;
             this.Menu_Save.Name = "Menu_Save";
             this.Menu_Save.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.Menu_Save.ShowShortcutKeys = false;
@@ -126,7 +126,7 @@
             // 
             // Menu_ExportSAV
             // 
-            this.Menu_ExportSAV.Image = global::PKHeX.WinForms.Properties.Resources.saveSAV;
+            this.Menu_ExportSAV.Image = global::GlazePKMProgram.WinForms.Properties.Resources.saveSAV;
             this.Menu_ExportSAV.Name = "Menu_ExportSAV";
             this.Menu_ExportSAV.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
             this.Menu_ExportSAV.ShowShortcutKeys = false;
@@ -136,7 +136,7 @@
             // 
             // Menu_Exit
             // 
-            this.Menu_Exit.Image = global::PKHeX.WinForms.Properties.Resources.exit;
+            this.Menu_Exit.Image = global::GlazePKMProgram.WinForms.Properties.Resources.exit;
             this.Menu_Exit.Name = "Menu_Exit";
             this.Menu_Exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
             this.Menu_Exit.ShowShortcutKeys = false;
@@ -161,14 +161,14 @@
             this.Menu_ShowdownExportPKM,
             this.Menu_ShowdownExportParty,
             this.Menu_ShowdownExportCurrentBox});
-            this.Menu_Showdown.Image = global::PKHeX.WinForms.Properties.Resources.showdown;
+            this.Menu_Showdown.Image = global::GlazePKMProgram.WinForms.Properties.Resources.showdown;
             this.Menu_Showdown.Name = "Menu_Showdown";
             this.Menu_Showdown.Size = new System.Drawing.Size(133, 22);
             this.Menu_Showdown.Text = "Showdown";
             // 
             // Menu_ShowdownImportPKM
             // 
-            this.Menu_ShowdownImportPKM.Image = global::PKHeX.WinForms.Properties.Resources.import;
+            this.Menu_ShowdownImportPKM.Image = global::GlazePKMProgram.WinForms.Properties.Resources.import;
             this.Menu_ShowdownImportPKM.Name = "Menu_ShowdownImportPKM";
             this.Menu_ShowdownImportPKM.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
             this.Menu_ShowdownImportPKM.ShowShortcutKeys = false;
@@ -178,7 +178,7 @@
             // 
             // Menu_ShowdownExportPKM
             // 
-            this.Menu_ShowdownExportPKM.Image = global::PKHeX.WinForms.Properties.Resources.export;
+            this.Menu_ShowdownExportPKM.Image = global::GlazePKMProgram.WinForms.Properties.Resources.export;
             this.Menu_ShowdownExportPKM.Name = "Menu_ShowdownExportPKM";
             this.Menu_ShowdownExportPKM.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.T)));
@@ -189,7 +189,7 @@
             // 
             // Menu_ShowdownExportParty
             // 
-            this.Menu_ShowdownExportParty.Image = global::PKHeX.WinForms.Properties.Resources.export;
+            this.Menu_ShowdownExportParty.Image = global::GlazePKMProgram.WinForms.Properties.Resources.export;
             this.Menu_ShowdownExportParty.Name = "Menu_ShowdownExportParty";
             this.Menu_ShowdownExportParty.Size = new System.Drawing.Size(243, 22);
             this.Menu_ShowdownExportParty.Text = "Export Party to Clipboard";
@@ -197,7 +197,7 @@
             // 
             // Menu_ShowdownExportCurrentBox
             // 
-            this.Menu_ShowdownExportCurrentBox.Image = global::PKHeX.WinForms.Properties.Resources.export;
+            this.Menu_ShowdownExportCurrentBox.Image = global::GlazePKMProgram.WinForms.Properties.Resources.export;
             this.Menu_ShowdownExportCurrentBox.Name = "Menu_ShowdownExportCurrentBox";
             this.Menu_ShowdownExportCurrentBox.Size = new System.Drawing.Size(243, 22);
             this.Menu_ShowdownExportCurrentBox.Text = "Export Current Box to Clipboard";
@@ -214,14 +214,14 @@
             this.Menu_MGDatabase,
             this.Menu_EncDatabase,
             this.Menu_BatchEditor});
-            this.Menu_Data.Image = global::PKHeX.WinForms.Properties.Resources.data;
+            this.Menu_Data.Image = global::GlazePKMProgram.WinForms.Properties.Resources.data;
             this.Menu_Data.Name = "Menu_Data";
             this.Menu_Data.Size = new System.Drawing.Size(133, 22);
             this.Menu_Data.Text = "Data";
             // 
             // Menu_LoadBoxes
             // 
-            this.Menu_LoadBoxes.Image = global::PKHeX.WinForms.Properties.Resources.load;
+            this.Menu_LoadBoxes.Image = global::GlazePKMProgram.WinForms.Properties.Resources.load;
             this.Menu_LoadBoxes.Name = "Menu_LoadBoxes";
             this.Menu_LoadBoxes.Size = new System.Drawing.Size(182, 22);
             this.Menu_LoadBoxes.Text = "Load Boxes";
@@ -229,7 +229,7 @@
             // 
             // Menu_DumpBoxes
             // 
-            this.Menu_DumpBoxes.Image = global::PKHeX.WinForms.Properties.Resources.dump;
+            this.Menu_DumpBoxes.Image = global::GlazePKMProgram.WinForms.Properties.Resources.dump;
             this.Menu_DumpBoxes.Name = "Menu_DumpBoxes";
             this.Menu_DumpBoxes.Size = new System.Drawing.Size(182, 22);
             this.Menu_DumpBoxes.Text = "Dump Boxes";
@@ -237,7 +237,7 @@
             // 
             // Menu_DumpBox
             // 
-            this.Menu_DumpBox.Image = global::PKHeX.WinForms.Properties.Resources.dump;
+            this.Menu_DumpBox.Image = global::GlazePKMProgram.WinForms.Properties.Resources.dump;
             this.Menu_DumpBox.Name = "Menu_DumpBox";
             this.Menu_DumpBox.Size = new System.Drawing.Size(182, 22);
             this.Menu_DumpBox.Text = "Dump Box";
@@ -245,7 +245,7 @@
             // 
             // Menu_Report
             // 
-            this.Menu_Report.Image = global::PKHeX.WinForms.Properties.Resources.report;
+            this.Menu_Report.Image = global::GlazePKMProgram.WinForms.Properties.Resources.report;
             this.Menu_Report.Name = "Menu_Report";
             this.Menu_Report.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
             this.Menu_Report.ShowShortcutKeys = false;
@@ -255,7 +255,7 @@
             // 
             // Menu_Database
             // 
-            this.Menu_Database.Image = global::PKHeX.WinForms.Properties.Resources.database;
+            this.Menu_Database.Image = global::GlazePKMProgram.WinForms.Properties.Resources.database;
             this.Menu_Database.Name = "Menu_Database";
             this.Menu_Database.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
             this.Menu_Database.ShowShortcutKeys = false;
@@ -265,7 +265,7 @@
             // 
             // Menu_MGDatabase
             // 
-            this.Menu_MGDatabase.Image = global::PKHeX.WinForms.Properties.Resources.gift;
+            this.Menu_MGDatabase.Image = global::GlazePKMProgram.WinForms.Properties.Resources.gift;
             this.Menu_MGDatabase.Name = "Menu_MGDatabase";
             this.Menu_MGDatabase.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
             this.Menu_MGDatabase.ShowShortcutKeys = false;
@@ -275,7 +275,7 @@
             // 
             // Menu_EncDatabase
             // 
-            this.Menu_EncDatabase.Image = global::PKHeX.WinForms.Properties.Resources.users;
+            this.Menu_EncDatabase.Image = global::GlazePKMProgram.WinForms.Properties.Resources.users;
             this.Menu_EncDatabase.Name = "Menu_EncDatabase";
             this.Menu_EncDatabase.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.Menu_EncDatabase.ShowShortcutKeys = false;
@@ -285,7 +285,7 @@
             // 
             // Menu_BatchEditor
             // 
-            this.Menu_BatchEditor.Image = global::PKHeX.WinForms.Properties.Resources.settings;
+            this.Menu_BatchEditor.Image = global::GlazePKMProgram.WinForms.Properties.Resources.settings;
             this.Menu_BatchEditor.Name = "Menu_BatchEditor";
             this.Menu_BatchEditor.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.M)));
             this.Menu_BatchEditor.ShowShortcutKeys = false;
@@ -295,7 +295,7 @@
             // 
             // Menu_Folder
             // 
-            this.Menu_Folder.Image = global::PKHeX.WinForms.Properties.Resources.folder;
+            this.Menu_Folder.Image = global::GlazePKMProgram.WinForms.Properties.Resources.folder;
             this.Menu_Folder.Name = "Menu_Folder";
             this.Menu_Folder.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
             this.Menu_Folder.ShowShortcutKeys = false;
@@ -319,7 +319,7 @@
             // 
             this.Menu_Language.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.CB_MainLanguage});
-            this.Menu_Language.Image = global::PKHeX.WinForms.Properties.Resources.language;
+            this.Menu_Language.Image = global::GlazePKMProgram.WinForms.Properties.Resources.language;
             this.Menu_Language.Name = "Menu_Language";
             this.Menu_Language.Size = new System.Drawing.Size(164, 22);
             this.Menu_Language.Text = "Language";
@@ -334,7 +334,7 @@
             // Menu_Undo
             // 
             this.Menu_Undo.Enabled = false;
-            this.Menu_Undo.Image = global::PKHeX.WinForms.Properties.Resources.bak;
+            this.Menu_Undo.Image = global::GlazePKMProgram.WinForms.Properties.Resources.bak;
             this.Menu_Undo.Name = "Menu_Undo";
             this.Menu_Undo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
             this.Menu_Undo.ShowShortcutKeys = false;
@@ -345,7 +345,7 @@
             // Menu_Redo
             // 
             this.Menu_Redo.Enabled = false;
-            this.Menu_Redo.Image = global::PKHeX.WinForms.Properties.Resources.redo;
+            this.Menu_Redo.Image = global::GlazePKMProgram.WinForms.Properties.Resources.redo;
             this.Menu_Redo.Name = "Menu_Redo";
             this.Menu_Redo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
             this.Menu_Redo.ShowShortcutKeys = false;
@@ -355,7 +355,7 @@
             // 
             // Menu_Settings
             // 
-            this.Menu_Settings.Image = global::PKHeX.WinForms.Properties.Resources.settings;
+            this.Menu_Settings.Image = global::GlazePKMProgram.WinForms.Properties.Resources.settings;
             this.Menu_Settings.Name = "Menu_Settings";
             this.Menu_Settings.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
@@ -366,12 +366,12 @@
             // 
             // Menu_About
             // 
-            this.Menu_About.Image = global::PKHeX.WinForms.Properties.Resources.about;
+            this.Menu_About.Image = global::GlazePKMProgram.WinForms.Properties.Resources.about;
             this.Menu_About.Name = "Menu_About";
             this.Menu_About.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
             this.Menu_About.ShowShortcutKeys = false;
             this.Menu_About.Size = new System.Drawing.Size(164, 22);
-            this.Menu_About.Text = "About &PKHeX";
+            this.Menu_About.Text = "About &GlazePKMProgram";
             this.Menu_About.Click += new System.EventHandler(this.MainMenuAbout);
             // 
             // L_UpdateAvailable
@@ -422,7 +422,7 @@
             this.PKME_Tabs.UpdatePreviewSprite += new System.EventHandler(this.PKME_Tabs_UpdatePreviewSprite);
             this.PKME_Tabs.RequestShowdownImport += new System.EventHandler(this.PKME_Tabs_RequestShowdownImport);
             this.PKME_Tabs.RequestShowdownExport += new System.EventHandler(this.PKME_Tabs_RequestShowdownExport);
-            this.PKME_Tabs.SaveFileRequested += new PKHeX.WinForms.Controls.PKMEditor.ReturnSAVEventHandler(this.PKME_Tabs_SaveFileRequested);
+            this.PKME_Tabs.SaveFileRequested += new GlazePKMProgram.WinForms.Controls.PKMEditor.ReturnSAVEventHandler(this.PKME_Tabs_SaveFileRequested);
             // 
             // C_SAV
             // 
@@ -477,7 +477,7 @@
             // 
             // PB_Legal
             // 
-            this.PB_Legal.Image = global::PKHeX.WinForms.Properties.Resources.valid;
+            this.PB_Legal.Image = global::GlazePKMProgram.WinForms.Properties.Resources.valid;
             this.PB_Legal.Location = new System.Drawing.Point(222, 2);
             this.PB_Legal.Name = "PB_Legal";
             this.PB_Legal.Size = new System.Drawing.Size(16, 16);
@@ -495,12 +495,12 @@
             this.Controls.Add(this.PB_Legal);
             this.Controls.Add(this.splitContainer2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PKHeX";
+            this.Text = "GlazePKMProgram";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Main_DragDrop);
             this.menuStrip1.ResumeLayout(false);

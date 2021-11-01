@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Utility class for <see cref="GameVersion"/> logic.

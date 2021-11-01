@@ -1,10 +1,10 @@
 using System;
 using System.Diagnostics;
 using System.Drawing;
-using PKHeX.Core;
-using PKHeX.Drawing;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public static class CGearImage
     {

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     partial class QR
     {
@@ -200,12 +200,12 @@ namespace PKHeX.WinForms
             this.ClientSize = new System.Drawing.Size(284, 211);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "QR";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "PKHeX QR Code (Click QR to Copy Image)";
+            this.Text = "GlazePKMProgram QR Code (Click QR to Copy Image)";
             ((System.ComponentModel.ISupportInitialize)(this.PB_QR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Slot)).EndInit();

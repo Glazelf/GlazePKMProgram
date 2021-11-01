@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_MysteryGiftDB
     {
@@ -72,7 +72,7 @@
             this.Tab_General = new System.Windows.Forms.TabPage();
             this.Tab_Advanced = new System.Windows.Forms.TabPage();
             this.RTB_Instructions = new System.Windows.Forms.RichTextBox();
-            this.MysteryPokeGrid = new PKHeX.WinForms.Controls.PokeGrid();
+            this.MysteryPokeGrid = new GlazePKMProgram.WinForms.Controls.PokeGrid();
             this.menuStrip1.SuspendLayout();
             this.P_Results.SuspendLayout();
             this.FLP_Egg.SuspendLayout();
@@ -117,7 +117,7 @@
             // 
             // Menu_Exit
             // 
-            this.Menu_Exit.Image = global::PKHeX.WinForms.Properties.Resources.exit;
+            this.Menu_Exit.Image = global::GlazePKMProgram.WinForms.Properties.Resources.exit;
             this.Menu_Exit.Name = "Menu_Exit";
             this.Menu_Exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
             this.Menu_Exit.ShowShortcutKeys = false;
@@ -137,7 +137,7 @@
             // 
             // Menu_OpenDB
             // 
-            this.Menu_OpenDB.Image = global::PKHeX.WinForms.Properties.Resources.folder;
+            this.Menu_OpenDB.Image = global::GlazePKMProgram.WinForms.Properties.Resources.folder;
             this.Menu_OpenDB.Name = "Menu_OpenDB";
             this.Menu_OpenDB.Size = new System.Drawing.Size(209, 22);
             this.Menu_OpenDB.Text = "Open Database Folder";
@@ -145,7 +145,7 @@
             // 
             // Menu_Export
             // 
-            this.Menu_Export.Image = global::PKHeX.WinForms.Properties.Resources.export;
+            this.Menu_Export.Image = global::GlazePKMProgram.WinForms.Properties.Resources.export;
             this.Menu_Export.Name = "Menu_Export";
             this.Menu_Export.Size = new System.Drawing.Size(209, 22);
             this.Menu_Export.Text = "Export Results to Folder";
@@ -153,7 +153,7 @@
             // 
             // Menu_Import
             // 
-            this.Menu_Import.Image = global::PKHeX.WinForms.Properties.Resources.savePKM;
+            this.Menu_Import.Image = global::GlazePKMProgram.WinForms.Properties.Resources.savePKM;
             this.Menu_Import.Name = "Menu_Import";
             this.Menu_Import.Size = new System.Drawing.Size(209, 22);
             this.Menu_Import.Text = "Import Results to SaveFile";
@@ -533,7 +533,7 @@
             // 
             // mnuView
             // 
-            this.mnuView.Image = global::PKHeX.WinForms.Properties.Resources.other;
+            this.mnuView.Image = global::GlazePKMProgram.WinForms.Properties.Resources.other;
             this.mnuView.Name = "mnuView";
             this.mnuView.Size = new System.Drawing.Size(126, 22);
             this.mnuView.Text = "View";
@@ -541,7 +541,7 @@
             // 
             // mnuSaveMG
             // 
-            this.mnuSaveMG.Image = global::PKHeX.WinForms.Properties.Resources.gift;
+            this.mnuSaveMG.Image = global::GlazePKMProgram.WinForms.Properties.Resources.gift;
             this.mnuSaveMG.Name = "mnuSaveMG";
             this.mnuSaveMG.Size = new System.Drawing.Size(126, 22);
             this.mnuSaveMG.Text = "Save Gift";
@@ -549,7 +549,7 @@
             // 
             // mnuSavePK
             // 
-            this.mnuSavePK.Image = global::PKHeX.WinForms.Properties.Resources.savePKM;
+            this.mnuSavePK.Image = global::GlazePKMProgram.WinForms.Properties.Resources.savePKM;
             this.mnuSavePK.Name = "mnuSavePK";
             this.mnuSavePK.Size = new System.Drawing.Size(126, 22);
             this.mnuSavePK.Text = "Save PKM";
@@ -620,7 +620,7 @@
             this.Controls.Add(this.P_Results);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SAV_MysteryGiftDB";

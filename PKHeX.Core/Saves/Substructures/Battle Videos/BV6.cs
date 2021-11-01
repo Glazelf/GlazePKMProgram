@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 // ReSharper disable UnusedType.Local
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class BV6 : BattleVideo
     {

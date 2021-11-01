@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class WonderCard3Extra : Gen3MysteryData
     {

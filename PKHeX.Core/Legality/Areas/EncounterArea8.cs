@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.AreaWeather8;
-using static PKHeX.Core.AreaSlotType8;
+using static GlazePKMProgram.Core.AreaWeather8;
+using static GlazePKMProgram.Core.AreaSlotType8;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <inheritdoc cref="EncounterArea" />
     /// <summary>

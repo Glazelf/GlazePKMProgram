@@ -1,7 +1,7 @@
 ﻿using System;
-using static PKHeX.Core.Encounters3Shadow;
+using static GlazePKMProgram.Core.Encounters3Shadow;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Permutations of teams, where a team may have multiple shadow Pokémon or alternate/re-battle scenarios.

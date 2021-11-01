@@ -1,7 +1,7 @@
 ﻿using System;
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class GameData
     {

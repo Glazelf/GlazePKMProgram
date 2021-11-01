@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Text;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-namespace PKHeX.Drawing
+namespace GlazePKMProgram.Drawing
 {
     public static class SpriteName
     {

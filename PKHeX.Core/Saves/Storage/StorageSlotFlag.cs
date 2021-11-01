@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Flags describing special attributes for a <see cref="PKM"/> based on its origin from the parent <see cref="SaveFile"/>.

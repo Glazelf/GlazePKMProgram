@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using static PKHeX.Core.EggSource2;
+using static GlazePKMProgram.Core.EggSource2;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class MoveBreed2
     {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.LegalityCheckStrings;
-using static PKHeX.Core.LanguageID;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.LanguageID;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verifies the <see cref="PKM.Nickname"/>.

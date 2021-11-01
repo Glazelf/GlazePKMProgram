@@ -1,4 +1,4 @@
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     partial class SAV_Misc5
     {
@@ -1705,7 +1705,7 @@ namespace PKHeX.WinForms
             this.Controls.Add(this.TC_Misc);
             this.Controls.Add(this.B_Save);
             this.Controls.Add(this.B_Cancel);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MinimumSize = new System.Drawing.Size(378, 411);
             this.Name = "SAV_Misc5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

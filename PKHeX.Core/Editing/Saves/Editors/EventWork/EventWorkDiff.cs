@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using static PKHeX.Core.MessageStrings;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Calculates differences in the Event Blocks between two <see cref="SaveFile"/>.

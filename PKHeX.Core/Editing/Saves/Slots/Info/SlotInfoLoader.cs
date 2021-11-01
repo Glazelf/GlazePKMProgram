@@ -2,7 +2,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class SlotInfoLoader
     {

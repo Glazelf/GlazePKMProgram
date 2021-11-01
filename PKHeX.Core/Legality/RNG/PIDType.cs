@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.PIDType;
+﻿using static GlazePKMProgram.Core.PIDType;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// PID + IV correlation.

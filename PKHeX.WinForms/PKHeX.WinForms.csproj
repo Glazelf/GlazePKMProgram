@@ -4,14 +4,14 @@
     <OutputType>WinExe</OutputType>
     <TargetFrameworks>net46;net5.0-windows</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
-    <PackageId>PKHeX</PackageId>
+    <PackageId>GlazePKMProgram</PackageId>
     <Company>Project Pokémon</Company>
-    <Authors>Kaphotics</Authors>
-    <Product>PKHeX</Product>
+    <Authors>Glaze</Authors>
+    <Product>GlazePKMProgram</Product>
     <Description>Pokémon Save Editor</Description>
     <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
-    <StartupObject>PKHeX.WinForms.Program</StartupObject>
-    <AssemblyName>PKHeX</AssemblyName>
+    <StartupObject>GlazePKMProgram.WinForms.Program</StartupObject>
+    <AssemblyName>GlazePKMProgram</AssemblyName>
     <Version>21.10.01</Version>
     <LangVersion>9</LangVersion>
     <Nullable>enable</Nullable>
@@ -30,8 +30,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PKHeX.Core\PKHeX.Core.csproj" />
-    <ProjectReference Include="..\PKHeX.Drawing\PKHeX.Drawing.csproj" />
+    <ProjectReference Include="..\GlazePKMProgram.Core\GlazePKMProgram.Core.csproj" />
+    <ProjectReference Include="..\GlazePKMProgram.Drawing\GlazePKMProgram.Drawing.csproj" />
   </ItemGroup>
 
   <ItemGroup>

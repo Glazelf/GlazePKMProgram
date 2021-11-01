@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-using static PKHeX.Core.Encounters6;
-using static PKHeX.Core.Encounters8;
-using static PKHeX.Core.Move;
-using static PKHeX.Core.Species;
+using static GlazePKMProgram.Core.Encounters6;
+using static GlazePKMProgram.Core.Encounters8;
+using static GlazePKMProgram.Core.Move;
+using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Validation logic for specific memory conditions

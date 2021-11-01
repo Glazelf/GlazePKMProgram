@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     internal sealed class OPowerFlagSet
     {

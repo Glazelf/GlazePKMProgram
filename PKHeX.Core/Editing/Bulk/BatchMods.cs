@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using static PKHeX.Core.BatchEditing;
+using static GlazePKMProgram.Core.BatchEditing;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class BatchMods
     {

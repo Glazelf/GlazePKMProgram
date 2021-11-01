@@ -6,10 +6,10 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-using static PKHeX.Core.MessageStrings;
-using static PKHeX.Core.BatchModifications;
+using static GlazePKMProgram.Core.MessageStrings;
+using static GlazePKMProgram.Core.BatchModifications;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for editing many <see cref="PKM"/> with user provided <see cref="StringInstruction"/> list.

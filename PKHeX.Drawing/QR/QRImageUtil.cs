@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace PKHeX.Drawing
+namespace GlazePKMProgram.Drawing
 {
     public static class QRImageUtil
     {

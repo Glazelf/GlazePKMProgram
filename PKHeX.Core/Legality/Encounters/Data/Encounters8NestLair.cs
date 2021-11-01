@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     // Dynamax Adventures
     internal static partial class Encounters8Nest

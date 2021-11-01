@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static partial class Util
     {

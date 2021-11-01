@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-namespace PKHeX.Drawing
+namespace GlazePKMProgram.Drawing
 {
     public static class QRDecode
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Simple Storage Binary wrapper for a concatenated list of <see cref="PKM"/> data.

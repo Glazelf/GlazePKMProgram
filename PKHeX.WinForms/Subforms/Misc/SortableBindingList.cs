@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public abstract class SortableBindingList<T> : BindingList<T> where T : class
     {

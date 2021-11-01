@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using static PKHeX.Core.LegalityCheckStrings;
-using static PKHeX.Core.Ball;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.Ball;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verifies the <see cref="PKM.Ball"/> value.

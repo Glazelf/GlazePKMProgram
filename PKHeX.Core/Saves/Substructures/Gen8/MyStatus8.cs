@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class MyStatus8 : SaveBlock
     {

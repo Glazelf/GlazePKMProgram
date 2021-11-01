@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 
-namespace PKHeX.Drawing
+namespace GlazePKMProgram.Drawing
 {
     /// <summary>
     /// Image Layering/Blending Utility

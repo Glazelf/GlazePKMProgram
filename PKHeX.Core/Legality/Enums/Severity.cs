@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.LegalityCheckStrings;
+﻿using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary> Severity indication of the associated <see cref="CheckResult"/> </summary>
     /// <remarks>

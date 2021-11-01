@@ -1,6 +1,6 @@
-using static PKHeX.Core.OverworldCorrelation8Requirement;
+using static GlazePKMProgram.Core.OverworldCorrelation8Requirement;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Encounter Slot found in <see cref="GameVersion.SWSH"/>.

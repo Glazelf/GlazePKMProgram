@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.LanguageID;
+﻿using static GlazePKMProgram.Core.LanguageID;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Provides information for <see cref="IRegionOrigin.ConsoleRegion"/> and <see cref="IRegionOrigin.Country"/> data.

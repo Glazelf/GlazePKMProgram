@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Locks associated to a given NPC PKM that appears before a <see cref="EncounterStaticShadow"/>.

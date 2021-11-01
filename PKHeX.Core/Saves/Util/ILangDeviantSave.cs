@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// <see cref="SaveFile"/> behaves differently for different languages (different structure layout).

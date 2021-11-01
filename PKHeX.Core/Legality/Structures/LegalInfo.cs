@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Calculated Information storage with properties useful for parsing the legality of the input <see cref="PKM"/>.

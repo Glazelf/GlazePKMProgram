@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Specification for <see cref="PKM.IsShiny"/>, used for creating and validating.

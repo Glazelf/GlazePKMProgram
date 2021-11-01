@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_Misc4
     {
@@ -110,9 +110,9 @@
             this.B_AllSealsIllegal = new System.Windows.Forms.Button();
             this.B_AllSealsLegal = new System.Windows.Forms.Button();
             this.Tab_Poffins = new System.Windows.Forms.TabPage();
-            this.poffinCase4Editor1 = new PKHeX.WinForms.PoffinCase4Editor();
+            this.poffinCase4Editor1 = new GlazePKMProgram.WinForms.PoffinCase4Editor();
             this.Tab_PokeGear = new System.Windows.Forms.TabPage();
-            this.pokeGear4Editor1 = new PKHeX.WinForms.PokeGear4Editor();
+            this.pokeGear4Editor1 = new GlazePKMProgram.WinForms.PokeGear4Editor();
             this.tip1 = new System.Windows.Forms.ToolTip(this.components);
             this.tip2 = new System.Windows.Forms.ToolTip(this.components);
             this.TC_Misc.SuspendLayout();
@@ -1336,7 +1336,7 @@
             this.Controls.Add(this.B_Cancel);
             this.Controls.Add(this.B_Save);
             this.Controls.Add(this.TC_Misc);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.Name = "SAV_Misc4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Misc Editor";

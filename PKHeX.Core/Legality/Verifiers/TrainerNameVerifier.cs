@@ -1,7 +1,7 @@
 ﻿using System;
-using static PKHeX.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verifies the <see cref="PKM.OT_Name"/>.
@@ -12,7 +12,7 @@ namespace PKHeX.Core
 
         private static readonly string[] SuspiciousOTNames =
         {
-            "PKHeX",
+            "GlazePKMProgram",
             "ＰＫＨｅＸ",
         };
 

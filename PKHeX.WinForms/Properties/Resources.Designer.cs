@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Resources.NeutralResourcesLanguage("en")]
-namespace PKHeX.WinForms.Properties {
+namespace GlazePKMProgram.WinForms.Properties {
     using System;
     
     
@@ -40,7 +40,7 @@ namespace PKHeX.WinForms.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PKHeX.WinForms.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GlazePKMProgram.WinForms.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -212,8 +212,8 @@ namespace PKHeX.WinForms.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PKHeX - By Kaphotics
-        ///http://projectpokemon.org/pkhex/
+        ///   Looks up a localized string similar to GlazePKMProgram - By Glaze
+        ///http://projectpokemon.org/GlazePKMProgram/
         ///
         ///20/04/14 - New Update:
         /// - Legality:
@@ -526,7 +526,7 @@ namespace PKHeX.WinForms.Properties {
         ///BatchEditor=Batch Editor
         ///ErrorWindow=Error
         ///KChart=KChart
-        ///Main=PKHeX
+        ///Main=GlazePKMProgram
         ///MemoryAmie=Memory / Amie Editor
         ///RibbonEditor=Ribbon Editor
         ///SAV_Apricorn=Apricorn Editor
@@ -554,7 +554,7 @@ namespace PKHeX.WinForms.Properties {
         ///BatchEditor=Batch Editor
         ///ErrorWindow=Error
         ///KChart=KChart
-        ///Main=PKHeX
+        ///Main=GlazePKMProgram
         ///MemoryAmie=Memory / Amie Editor
         ///RibbonEditor=Ribbon Editor
         ///SAV_Apricorn=Apricorn Editor
@@ -582,7 +582,7 @@ namespace PKHeX.WinForms.Properties {
         ///BatchEditor=Editor por Lotes
         ///ErrorWindow=Error
         ///KChart=KChart
-        ///Main=PKHeX
+        ///Main=GlazePKMProgram
         ///MemoryAmie=Editor de Memorias / Poké Recreo
         ///RibbonEditor=Editor de Cintas
         ///SAV_Apricorn=Editor de Bonguri
@@ -607,7 +607,7 @@ namespace PKHeX.WinForms.Properties {
         ///BatchEditor=Batch Editor
         ///ErrorWindow=Erreur
         ///KChart=KChart
-        ///Main=PKHeX
+        ///Main=GlazePKMProgram
         ///MemoryAmie=Memory / Amie Editor
         ///RibbonEditor=Rubans
         ///SAV_Apricorn=Noigrumes
@@ -634,7 +634,7 @@ namespace PKHeX.WinForms.Properties {
         ///BatchEditor=Batch Editor
         ///ErrorWindow=Error
         ///KChart=KChart
-        ///Main=PKHeX
+        ///Main=GlazePKMProgram
         ///MemoryAmie=Memory / Amie Editor
         ///RibbonEditor=Ribbon Editor
         ///SAV_Apricorn=Apricorn Editor
@@ -662,7 +662,7 @@ namespace PKHeX.WinForms.Properties {
         ///BatchEditor=バッチエディタ
         ///ErrorWindow=エラー
         ///KChart=KChart
-        ///Main=PKHeX
+        ///Main=GlazePKMProgram
         ///MemoryAmie=おもいで
         ///RibbonEditor=取得リボン
         ///SAV_Apricorn=ぼんぐり
@@ -693,7 +693,7 @@ namespace PKHeX.WinForms.Properties {
         ///BatchEditor=일괄 편집 도구
         ///ErrorWindow=오류
         ///KChart=KChart
-        ///Main=PKHeX
+        ///Main=GlazePKMProgram
         ///MemoryAmie=기억 / 파를레 편집 도구
         ///RibbonEditor=리본 편집 도구
         ///SAV_Apricorn=규토리 편집 도구
@@ -724,7 +724,7 @@ namespace PKHeX.WinForms.Properties {
         ///BatchEditor=批量编辑器
         ///ErrorWindow=错误
         ///KChart=信息列表
-        ///Main=PKHeX
+        ///Main=GlazePKMProgram
         ///MemoryAmie=回忆编辑器
         ///RibbonEditor=奖章
         ///SAV_Apricorn=球果编辑
@@ -971,7 +971,7 @@ namespace PKHeX.WinForms.Properties {
         ///CTRL-N: Open Encounter Database
         ///CTRL-M: Open Batch Editor
         ///CTRL-R: Open Box Report
-        ///CTRL-P: Open About PKHeX
+        ///CTRL-P: Open About GlazePKMProgram
         ///CTRL-T: Import Showdown Set
         ///CTRL-SHIFT-T: Export Showdown Set
         ///CTRL-SHIFT-S: Open Settings

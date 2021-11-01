@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using static PKHeX.Core.MessageStrings;
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.MessageStrings;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for <see cref="SaveFile"/> data loading and manipulation.
@@ -648,7 +648,7 @@ namespace PKHeX.Core
         public static string GetSafeTrainerName(SaveFile? sav, LanguageID lang) => lang switch
         {
             LanguageID.Japanese => sav?.Generation >= 3 ? "ＰＫＨｅＸ" : "1337",
-            _ => "PKHeX",
+            _ => "GlazePKMProgram",
         };
 
         /// <summary>

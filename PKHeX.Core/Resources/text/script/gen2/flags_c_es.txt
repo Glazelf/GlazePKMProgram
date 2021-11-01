@@ -8,8 +8,8 @@
 1784	r	Sudowoodo Capturado
 0079	g	Eevee Recibido
 1867	*	Las bestias legendarias desaparecieron de la torre incendiada
-0190	*	Kurt puede ver la GS Ball
-0191	*	Kurt listo para regresar la GS Ball (combinar con la Marca de arriba)
+0190	*	Glaze puede ver la GS Ball
+0191	*	Glaze listo para regresar la GS Ball (combinar con la Marca de arriba)
 0192	*	GS Ball puede ser insertada en el Encinar
 0672	*	SOLVED_HO_OH_PUZZLE
 0673	*	SOLVED_KABUTO_PUZZLE

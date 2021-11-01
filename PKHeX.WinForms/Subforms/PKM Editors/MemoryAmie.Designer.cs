@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class MemoryAmie
     {
@@ -799,7 +799,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.BTN_Cancel);
             this.Controls.Add(this.BTN_Save);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MemoryAmie";

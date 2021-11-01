@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_GameSelect
     {
@@ -100,7 +100,7 @@
             this.Controls.Add(this.B_Cancel);
             this.Controls.Add(this.CB_Game);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms.Controls
+﻿namespace GlazePKMProgram.WinForms.Controls
 {
     partial class PKMEditor
     {
@@ -67,7 +67,7 @@
             this.Label_Form = new System.Windows.Forms.Label();
             this.FLP_FormRight = new System.Windows.Forms.FlowLayoutPanel();
             this.CB_Form = new System.Windows.Forms.ComboBox();
-            this.FA_Form = new PKHeX.WinForms.Controls.FormArgument();
+            this.FA_Form = new GlazePKMProgram.WinForms.Controls.FormArgument();
             this.FLP_HeldItem = new System.Windows.Forms.FlowLayoutPanel();
             this.Label_HeldItem = new System.Windows.Forms.Label();
             this.CB_HeldItem = new System.Windows.Forms.ComboBox();
@@ -119,12 +119,12 @@
             this.CHK_Shadow = new System.Windows.Forms.CheckBox();
             this.FLP_ShinyLeaf = new System.Windows.Forms.FlowLayoutPanel();
             this.L_ShinyLeaf = new System.Windows.Forms.Label();
-            this.ShinyLeaf = new PKHeX.WinForms.Controls.ShinyLeaf();
+            this.ShinyLeaf = new GlazePKMProgram.WinForms.Controls.ShinyLeaf();
             this.FLP_CatchRate = new System.Windows.Forms.FlowLayoutPanel();
             this.L_CatchRate = new System.Windows.Forms.Label();
-            this.CR_PK1 = new PKHeX.WinForms.Controls.CatchRate();
+            this.CR_PK1 = new GlazePKMProgram.WinForms.Controls.CatchRate();
             this.FLP_SizeCP = new System.Windows.Forms.FlowLayoutPanel();
-            this.SizeCP = new PKHeX.WinForms.Controls.SizeCP();
+            this.SizeCP = new GlazePKMProgram.WinForms.Controls.SizeCP();
             this.Tab_Met = new System.Windows.Forms.TabPage();
             this.TB_HomeTracker = new System.Windows.Forms.TextBox();
             this.L_HomeTracker = new System.Windows.Forms.Label();
@@ -165,8 +165,8 @@
             this.L_MetTimeOfDay = new System.Windows.Forms.Label();
             this.CB_MetTimeOfDay = new System.Windows.Forms.ComboBox();
             this.Tab_Stats = new System.Windows.Forms.TabPage();
-            this.Stats = new PKHeX.WinForms.Controls.StatEditor();
-            this.Contest = new PKHeX.WinForms.Controls.ContestStat();
+            this.Stats = new GlazePKMProgram.WinForms.Controls.StatEditor();
+            this.Contest = new GlazePKMProgram.WinForms.Controls.ContestStat();
             this.Tab_Attacks = new System.Windows.Forms.TabPage();
             this.B_Records = new System.Windows.Forms.Button();
             this.PB_WarnMove4 = new System.Windows.Forms.PictureBox();
@@ -225,7 +225,7 @@
             this.TB_ExtraByte = new System.Windows.Forms.MaskedTextBox();
             this.CB_ExtraBytes = new System.Windows.Forms.ComboBox();
             this.GB_OT = new System.Windows.Forms.GroupBox();
-            this.TID_Trainer = new PKHeX.WinForms.Controls.TrainerID();
+            this.TID_Trainer = new GlazePKMProgram.WinForms.Controls.TrainerID();
             this.Label_OTGender = new System.Windows.Forms.Label();
             this.TB_OT = new System.Windows.Forms.TextBox();
             this.Label_OT = new System.Windows.Forms.Label();
@@ -428,8 +428,8 @@
             // Label_IsShiny
             // 
             this.Label_IsShiny.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.Label_IsShiny.Image = global::PKHeX.WinForms.Properties.Resources.rare_icon;
-            this.Label_IsShiny.InitialImage = global::PKHeX.WinForms.Properties.Resources.rare_icon;
+            this.Label_IsShiny.Image = global::GlazePKMProgram.WinForms.Properties.Resources.rare_icon;
+            this.Label_IsShiny.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.rare_icon;
             this.Label_IsShiny.Location = new System.Drawing.Point(24, 2);
             this.Label_IsShiny.Margin = new System.Windows.Forms.Padding(0, 2, 2, 0);
             this.Label_IsShiny.Name = "Label_IsShiny";
@@ -442,8 +442,8 @@
             // Label_IsShiny2
             // 
             this.Label_IsShiny2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.Label_IsShiny2.Image = global::PKHeX.WinForms.Properties.Resources.rare_icon_2;
-            this.Label_IsShiny2.InitialImage = global::PKHeX.WinForms.Properties.Resources.rare_icon_2;
+            this.Label_IsShiny2.Image = global::GlazePKMProgram.WinForms.Properties.Resources.rare_icon_2;
+            this.Label_IsShiny2.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.rare_icon_2;
             this.Label_IsShiny2.Location = new System.Drawing.Point(2, 2);
             this.Label_IsShiny2.Margin = new System.Windows.Forms.Padding(0, 2, 2, 0);
             this.Label_IsShiny2.Name = "Label_IsShiny2";
@@ -1993,7 +1993,7 @@
             // 
             // PB_WarnMove4
             // 
-            this.PB_WarnMove4.Image = global::PKHeX.WinForms.Properties.Resources.warn;
+            this.PB_WarnMove4.Image = global::GlazePKMProgram.WinForms.Properties.Resources.warn;
             this.PB_WarnMove4.Location = new System.Drawing.Point(8, 113);
             this.PB_WarnMove4.Name = "PB_WarnMove4";
             this.PB_WarnMove4.Size = new System.Drawing.Size(16, 16);
@@ -2003,7 +2003,7 @@
             // 
             // PB_WarnMove3
             // 
-            this.PB_WarnMove3.Image = global::PKHeX.WinForms.Properties.Resources.warn;
+            this.PB_WarnMove3.Image = global::GlazePKMProgram.WinForms.Properties.Resources.warn;
             this.PB_WarnMove3.Location = new System.Drawing.Point(8, 91);
             this.PB_WarnMove3.Name = "PB_WarnMove3";
             this.PB_WarnMove3.Size = new System.Drawing.Size(16, 16);
@@ -2013,7 +2013,7 @@
             // 
             // PB_WarnMove2
             // 
-            this.PB_WarnMove2.Image = global::PKHeX.WinForms.Properties.Resources.warn;
+            this.PB_WarnMove2.Image = global::GlazePKMProgram.WinForms.Properties.Resources.warn;
             this.PB_WarnMove2.Location = new System.Drawing.Point(8, 69);
             this.PB_WarnMove2.Name = "PB_WarnMove2";
             this.PB_WarnMove2.Size = new System.Drawing.Size(16, 16);
@@ -2023,7 +2023,7 @@
             // 
             // PB_WarnMove1
             // 
-            this.PB_WarnMove1.Image = global::PKHeX.WinForms.Properties.Resources.warn;
+            this.PB_WarnMove1.Image = global::GlazePKMProgram.WinForms.Properties.Resources.warn;
             this.PB_WarnMove1.Location = new System.Drawing.Point(8, 47);
             this.PB_WarnMove1.Name = "PB_WarnMove1";
             this.PB_WarnMove1.Size = new System.Drawing.Size(16, 16);
@@ -2050,7 +2050,7 @@
             // 
             // PB_WarnRelearn4
             // 
-            this.PB_WarnRelearn4.Image = global::PKHeX.WinForms.Properties.Resources.warn;
+            this.PB_WarnRelearn4.Image = global::GlazePKMProgram.WinForms.Properties.Resources.warn;
             this.PB_WarnRelearn4.Location = new System.Drawing.Point(22, 93);
             this.PB_WarnRelearn4.Name = "PB_WarnRelearn4";
             this.PB_WarnRelearn4.Size = new System.Drawing.Size(16, 16);
@@ -2060,7 +2060,7 @@
             // 
             // PB_WarnRelearn3
             // 
-            this.PB_WarnRelearn3.Image = global::PKHeX.WinForms.Properties.Resources.warn;
+            this.PB_WarnRelearn3.Image = global::GlazePKMProgram.WinForms.Properties.Resources.warn;
             this.PB_WarnRelearn3.Location = new System.Drawing.Point(22, 71);
             this.PB_WarnRelearn3.Name = "PB_WarnRelearn3";
             this.PB_WarnRelearn3.Size = new System.Drawing.Size(16, 16);
@@ -2070,7 +2070,7 @@
             // 
             // PB_WarnRelearn2
             // 
-            this.PB_WarnRelearn2.Image = global::PKHeX.WinForms.Properties.Resources.warn;
+            this.PB_WarnRelearn2.Image = global::GlazePKMProgram.WinForms.Properties.Resources.warn;
             this.PB_WarnRelearn2.Location = new System.Drawing.Point(22, 49);
             this.PB_WarnRelearn2.Name = "PB_WarnRelearn2";
             this.PB_WarnRelearn2.Size = new System.Drawing.Size(16, 16);
@@ -2080,7 +2080,7 @@
             // 
             // PB_WarnRelearn1
             // 
-            this.PB_WarnRelearn1.Image = global::PKHeX.WinForms.Properties.Resources.warn;
+            this.PB_WarnRelearn1.Image = global::GlazePKMProgram.WinForms.Properties.Resources.warn;
             this.PB_WarnRelearn1.Location = new System.Drawing.Point(22, 27);
             this.PB_WarnRelearn1.Name = "PB_WarnRelearn1";
             this.PB_WarnRelearn1.Size = new System.Drawing.Size(16, 16);
@@ -2383,8 +2383,8 @@
             // 
             // PB_BattleVersion
             // 
-            this.PB_BattleVersion.Image = global::PKHeX.WinForms.Properties.Resources.icon_btlrom;
-            this.PB_BattleVersion.InitialImage = global::PKHeX.WinForms.Properties.Resources.icon_btlrom;
+            this.PB_BattleVersion.Image = global::GlazePKMProgram.WinForms.Properties.Resources.icon_btlrom;
+            this.PB_BattleVersion.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.icon_btlrom;
             this.PB_BattleVersion.Location = new System.Drawing.Point(251, 228);
             this.PB_BattleVersion.Name = "PB_BattleVersion";
             this.PB_BattleVersion.Size = new System.Drawing.Size(40, 40);
@@ -2405,8 +2405,8 @@
             // 
             // PB_Favorite
             // 
-            this.PB_Favorite.Image = global::PKHeX.WinForms.Properties.Resources.icon_favo;
-            this.PB_Favorite.InitialImage = global::PKHeX.WinForms.Properties.Resources.icon_favo;
+            this.PB_Favorite.Image = global::GlazePKMProgram.WinForms.Properties.Resources.icon_favo;
+            this.PB_Favorite.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.icon_favo;
             this.PB_Favorite.Location = new System.Drawing.Point(22, 228);
             this.PB_Favorite.Name = "PB_Favorite";
             this.PB_Favorite.Size = new System.Drawing.Size(40, 40);
@@ -2577,8 +2577,8 @@
             // 
             // PB_Mark6
             // 
-            this.PB_Mark6.Image = global::PKHeX.WinForms.Properties.Resources.box_mark_06;
-            this.PB_Mark6.InitialImage = global::PKHeX.WinForms.Properties.Resources.box_mark_06;
+            this.PB_Mark6.Image = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_06;
+            this.PB_Mark6.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_06;
             this.PB_Mark6.Location = new System.Drawing.Point(110, 36);
             this.PB_Mark6.Margin = new System.Windows.Forms.Padding(1);
             this.PB_Mark6.Name = "PB_Mark6";
@@ -2590,8 +2590,8 @@
             // 
             // PB_Mark3
             // 
-            this.PB_Mark3.Image = global::PKHeX.WinForms.Properties.Resources.box_mark_03;
-            this.PB_Mark3.InitialImage = global::PKHeX.WinForms.Properties.Resources.box_mark_03;
+            this.PB_Mark3.Image = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_03;
+            this.PB_Mark3.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_03;
             this.PB_Mark3.Location = new System.Drawing.Point(47, 36);
             this.PB_Mark3.Margin = new System.Windows.Forms.Padding(1);
             this.PB_Mark3.Name = "PB_Mark3";
@@ -2603,8 +2603,8 @@
             // 
             // PB_Mark5
             // 
-            this.PB_Mark5.Image = global::PKHeX.WinForms.Properties.Resources.box_mark_05;
-            this.PB_Mark5.InitialImage = global::PKHeX.WinForms.Properties.Resources.box_mark_05;
+            this.PB_Mark5.Image = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_05;
+            this.PB_Mark5.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_05;
             this.PB_Mark5.Location = new System.Drawing.Point(89, 36);
             this.PB_Mark5.Margin = new System.Windows.Forms.Padding(1);
             this.PB_Mark5.Name = "PB_Mark5";
@@ -2616,8 +2616,8 @@
             // 
             // PB_MarkCured
             // 
-            this.PB_MarkCured.Image = global::PKHeX.WinForms.Properties.Resources.anti_pokerus_icon;
-            this.PB_MarkCured.InitialImage = global::PKHeX.WinForms.Properties.Resources.anti_pokerus_icon;
+            this.PB_MarkCured.Image = global::GlazePKMProgram.WinForms.Properties.Resources.anti_pokerus_icon;
+            this.PB_MarkCured.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.anti_pokerus_icon;
             this.PB_MarkCured.Location = new System.Drawing.Point(67, 15);
             this.PB_MarkCured.Name = "PB_MarkCured";
             this.PB_MarkCured.Size = new System.Drawing.Size(22, 20);
@@ -2627,8 +2627,8 @@
             // 
             // PB_Mark2
             // 
-            this.PB_Mark2.Image = global::PKHeX.WinForms.Properties.Resources.box_mark_02;
-            this.PB_Mark2.InitialImage = global::PKHeX.WinForms.Properties.Resources.box_mark_02;
+            this.PB_Mark2.Image = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_02;
+            this.PB_Mark2.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_02;
             this.PB_Mark2.Location = new System.Drawing.Point(26, 36);
             this.PB_Mark2.Margin = new System.Windows.Forms.Padding(1);
             this.PB_Mark2.Name = "PB_Mark2";
@@ -2640,8 +2640,8 @@
             // 
             // PB_MarkShiny
             // 
-            this.PB_MarkShiny.Image = global::PKHeX.WinForms.Properties.Resources.rare_icon;
-            this.PB_MarkShiny.InitialImage = global::PKHeX.WinForms.Properties.Resources.rare_icon;
+            this.PB_MarkShiny.Image = global::GlazePKMProgram.WinForms.Properties.Resources.rare_icon;
+            this.PB_MarkShiny.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.rare_icon;
             this.PB_MarkShiny.Location = new System.Drawing.Point(46, 15);
             this.PB_MarkShiny.Name = "PB_MarkShiny";
             this.PB_MarkShiny.Size = new System.Drawing.Size(22, 20);
@@ -2651,8 +2651,8 @@
             // 
             // PB_Mark1
             // 
-            this.PB_Mark1.Image = global::PKHeX.WinForms.Properties.Resources.box_mark_01;
-            this.PB_Mark1.InitialImage = global::PKHeX.WinForms.Properties.Resources.box_mark_01;
+            this.PB_Mark1.Image = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_01;
+            this.PB_Mark1.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_01;
             this.PB_Mark1.Location = new System.Drawing.Point(5, 36);
             this.PB_Mark1.Margin = new System.Windows.Forms.Padding(1);
             this.PB_Mark1.Name = "PB_Mark1";
@@ -2664,8 +2664,8 @@
             // 
             // PB_Mark4
             // 
-            this.PB_Mark4.Image = global::PKHeX.WinForms.Properties.Resources.box_mark_04;
-            this.PB_Mark4.InitialImage = global::PKHeX.WinForms.Properties.Resources.box_mark_04;
+            this.PB_Mark4.Image = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_04;
+            this.PB_Mark4.InitialImage = global::GlazePKMProgram.WinForms.Properties.Resources.box_mark_04;
             this.PB_Mark4.Location = new System.Drawing.Point(68, 36);
             this.PB_Mark4.Margin = new System.Windows.Forms.Padding(1);
             this.PB_Mark4.Name = "PB_Mark4";

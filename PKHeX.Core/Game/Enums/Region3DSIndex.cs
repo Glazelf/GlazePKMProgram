@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// 3DS Console Region Identifiers used for Generation 6 &amp; 7 Mystery Gifts

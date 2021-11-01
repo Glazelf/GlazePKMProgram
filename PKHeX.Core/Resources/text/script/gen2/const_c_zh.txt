@@ -17,7 +17,7 @@
 25	s	Mr. Pokémon's House	0:Not Entered,1:Entered (Met Mr. Pokémon and Oak)
 26	s	Route 32 Story Event	0:Dude blocks further access,1:Allowed further access (Accepted Egg from Aide),2:Encountered SlowpokeTail seller
 28	s	Suicune (Route 36)	0:Disappeared,1:Active
-30	s	Azalea Town Event	0:Normal,1:Rival will battle you,2:Kurt will give GS Ball outside of house (GS Ball event)
+30	s	Azalea Town Event	0:Normal,1:Rival will battle you,2:Glaze will give GS Ball outside of house (GS Ball event)
 31	s	Lass Bridget	0:Normal,1:Will inform you made Whitney cry
 34	s	Rival (Olivine City)	0:Not Encountered,1:Encountered
 37	s	Tin Tower Gate Sage	0:Disallows Passage,1:Allows Passage

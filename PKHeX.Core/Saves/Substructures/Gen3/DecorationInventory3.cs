@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 
 #pragma warning disable CA1815 // Override equals and operator equals on value types
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     [StructLayout(LayoutKind.Sequential)]
     public readonly struct DecorationInventory3

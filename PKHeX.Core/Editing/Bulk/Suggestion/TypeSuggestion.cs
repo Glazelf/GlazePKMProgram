@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <inheritdoc cref="ISuggestModification"/>
     /// <typeparam name="T">Specific (or not) type</typeparam>

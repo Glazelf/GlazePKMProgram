@@ -2,9 +2,9 @@
 using System.IO;
 using System.Linq;
 
-using static PKHeX.Core.MessageStrings;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Contains extension methods for use with a <see cref="SaveFile"/>.

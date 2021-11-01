@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Modifications using <see cref="BatchInfo"/> legality.

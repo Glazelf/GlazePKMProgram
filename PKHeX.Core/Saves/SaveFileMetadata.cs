@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Tracks information about where the <see cref="SAV"/> originated from, and provides logic for saving to a file.

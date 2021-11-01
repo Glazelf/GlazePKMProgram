@@ -1,5 +1,5 @@
 ﻿// ReSharper disable StringLiteralTypo
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Team listings for <see cref="GameVersion.CXD"/> that have a shadow Pokémon afterwards.

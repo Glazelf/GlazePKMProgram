@@ -3,9 +3,9 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public static class DevUtil
     {
@@ -48,20 +48,20 @@ namespace PKHeX.WinForms
         {
             // add mode
             WinFormsTranslator.SetRemovalMode(false);
-            WinFormsTranslator.LoadSettings<PKHeXSettings>(DefaultLanguage);
+            WinFormsTranslator.LoadSettings<GlazePKMProgramSettings>(DefaultLanguage);
             WinFormsTranslator.LoadAllForms(LoadBanlist); // populate with every possible control
             WinFormsTranslator.UpdateAll(DefaultLanguage, Languages); // propagate to others
             WinFormsTranslator.DumpAll(Banlist); // dump current to file
 
             // de-populate
             WinFormsTranslator.SetRemovalMode(); // remove used keys, don't add any
-            WinFormsTranslator.LoadSettings<PKHeXSettings>(DefaultLanguage, false);
+            WinFormsTranslator.LoadSettings<GlazePKMProgramSettings>(DefaultLanguage, false);
             WinFormsTranslator.LoadAllForms(LoadBanlist);
             WinFormsTranslator.RemoveAll(DefaultLanguage, PurgeBanlist); // remove all lines from above generated files that still remain
 
             // Move translated files from the debug exe loc to their project location
             var files = Directory.GetFiles(Application.StartupPath);
-            var dir = GetResourcePath("PKHeX.WinForms", "Resources", "text");
+            var dir = GetResourcePath("GlazePKMProgram.WinForms", "Resources", "text");
             foreach (var f in files)
             {
                 var fn = Path.GetFileName(f);
@@ -109,8 +109,8 @@ namespace PKHeX.WinForms
             nameof(SettingsEditor),
         };
 
-        private static void DumpStringsMessage() => DumpStrings(typeof(MessageStrings), false, "PKHeX.Core", "Resources", "text", "program");
-        private static void DumpStringsLegality() => DumpStrings(typeof(LegalityCheckStrings), true, "PKHeX.Core", "Resources", "legality", "checks");
+        private static void DumpStringsMessage() => DumpStrings(typeof(MessageStrings), false, "GlazePKMProgram.Core", "Resources", "text", "program");
+        private static void DumpStringsLegality() => DumpStrings(typeof(LegalityCheckStrings), true, "GlazePKMProgram.Core", "Resources", "legality", "checks");
 
         private static void DumpStrings(Type t, bool sorted, params string[] rel)
         {
@@ -142,7 +142,7 @@ namespace PKHeX.WinForms
         private static string GetResourcePath(params string[] subdir)
         {
             var path = Application.StartupPath;
-            const string projname = "PKHeX\\";
+            const string projname = "GlazePKMProgram\\";
             var pos = path.LastIndexOf(projname, StringComparison.Ordinal);
             var str = path[..(pos + projname.Length)];
             var coreFolder = Path.Combine(str, Path.Combine(subdir));

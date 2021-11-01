@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_Database
     {
@@ -47,7 +47,7 @@
             this.Menu_Import = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_DeleteClones = new System.Windows.Forms.ToolStripMenuItem();
             this.P_Results = new System.Windows.Forms.Panel();
-            this.DatabasePokeGrid = new PKHeX.WinForms.Controls.PokeGrid();
+            this.DatabasePokeGrid = new GlazePKMProgram.WinForms.Controls.PokeGrid();
             this.CB_Ability = new System.Windows.Forms.ComboBox();
             this.CB_HeldItem = new System.Windows.Forms.ComboBox();
             this.CB_Nature = new System.Windows.Forms.ComboBox();
@@ -145,7 +145,7 @@
             // 
             // Menu_Exit
             // 
-            this.Menu_Exit.Image = global::PKHeX.WinForms.Properties.Resources.exit;
+            this.Menu_Exit.Image = global::GlazePKMProgram.WinForms.Properties.Resources.exit;
             this.Menu_Exit.Name = "Menu_Exit";
             this.Menu_Exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
             this.Menu_Exit.ShowShortcutKeys = false;
@@ -175,7 +175,7 @@
             this.Menu_SearchLegal,
             this.Menu_SearchIllegal,
             this.Menu_SearchClones});
-            this.Menu_SearchSettings.Image = global::PKHeX.WinForms.Properties.Resources.settings;
+            this.Menu_SearchSettings.Image = global::GlazePKMProgram.WinForms.Properties.Resources.settings;
             this.Menu_SearchSettings.Name = "Menu_SearchSettings";
             this.Menu_SearchSettings.Size = new System.Drawing.Size(209, 22);
             this.Menu_SearchSettings.Text = "Search Settings";
@@ -234,7 +234,7 @@
             // 
             // Menu_OpenDB
             // 
-            this.Menu_OpenDB.Image = global::PKHeX.WinForms.Properties.Resources.folder;
+            this.Menu_OpenDB.Image = global::GlazePKMProgram.WinForms.Properties.Resources.folder;
             this.Menu_OpenDB.Name = "Menu_OpenDB";
             this.Menu_OpenDB.Size = new System.Drawing.Size(209, 22);
             this.Menu_OpenDB.Text = "Open Database Folder";
@@ -242,7 +242,7 @@
             // 
             // Menu_Report
             // 
-            this.Menu_Report.Image = global::PKHeX.WinForms.Properties.Resources.report;
+            this.Menu_Report.Image = global::GlazePKMProgram.WinForms.Properties.Resources.report;
             this.Menu_Report.Name = "Menu_Report";
             this.Menu_Report.Size = new System.Drawing.Size(209, 22);
             this.Menu_Report.Text = "Create Data Report";
@@ -250,7 +250,7 @@
             // 
             // Menu_Export
             // 
-            this.Menu_Export.Image = global::PKHeX.WinForms.Properties.Resources.export;
+            this.Menu_Export.Image = global::GlazePKMProgram.WinForms.Properties.Resources.export;
             this.Menu_Export.Name = "Menu_Export";
             this.Menu_Export.Size = new System.Drawing.Size(209, 22);
             this.Menu_Export.Text = "Export Results to Folder";
@@ -258,7 +258,7 @@
             // 
             // Menu_Import
             // 
-            this.Menu_Import.Image = global::PKHeX.WinForms.Properties.Resources.savePKM;
+            this.Menu_Import.Image = global::GlazePKMProgram.WinForms.Properties.Resources.savePKM;
             this.Menu_Import.Name = "Menu_Import";
             this.Menu_Import.Size = new System.Drawing.Size(209, 22);
             this.Menu_Import.Text = "Import Results to SaveFile";
@@ -266,7 +266,7 @@
             // 
             // Menu_DeleteClones
             // 
-            this.Menu_DeleteClones.Image = global::PKHeX.WinForms.Properties.Resources.nocheck;
+            this.Menu_DeleteClones.Image = global::GlazePKMProgram.WinForms.Properties.Resources.nocheck;
             this.Menu_DeleteClones.Name = "Menu_DeleteClones";
             this.Menu_DeleteClones.Size = new System.Drawing.Size(209, 22);
             this.Menu_DeleteClones.Text = "Delete Clones";
@@ -938,7 +938,7 @@
             // 
             // mnuView
             // 
-            this.mnuView.Image = global::PKHeX.WinForms.Properties.Resources.other;
+            this.mnuView.Image = global::GlazePKMProgram.WinForms.Properties.Resources.other;
             this.mnuView.Name = "mnuView";
             this.mnuView.Size = new System.Drawing.Size(107, 22);
             this.mnuView.Text = "View";
@@ -946,7 +946,7 @@
             // 
             // mnuDelete
             // 
-            this.mnuDelete.Image = global::PKHeX.WinForms.Properties.Resources.nocheck;
+            this.mnuDelete.Image = global::GlazePKMProgram.WinForms.Properties.Resources.nocheck;
             this.mnuDelete.Name = "mnuDelete";
             this.mnuDelete.Size = new System.Drawing.Size(107, 22);
             this.mnuDelete.Text = "Delete";
@@ -1007,7 +1007,7 @@
             this.Controls.Add(this.P_Results);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SAV_Database";

@@ -1,8 +1,8 @@
 ﻿using System.Drawing;
-using PKHeX.Core;
-using PKHeX.Drawing.Properties;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing.Properties;
 
-namespace PKHeX.Drawing
+namespace GlazePKMProgram.Drawing
 {
     public abstract class SpriteBuilder : ISpriteBuilder<Image>
     {

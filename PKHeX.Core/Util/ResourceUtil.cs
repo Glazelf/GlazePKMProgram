@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static partial class Util
     {

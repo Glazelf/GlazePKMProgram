@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Interface containing details relevant for battling.
@@ -46,7 +46,7 @@
         int Friendship { get; }
 
         /// <summary>
-        /// <see cref="PKM.Form"/> name of the Set entity, stored in PKHeX style (instead of Showdown's)
+        /// <see cref="PKM.Form"/> name of the Set entity, stored in GlazePKMProgram style (instead of Showdown's)
         /// </summary>
         string FormName { get; }
 

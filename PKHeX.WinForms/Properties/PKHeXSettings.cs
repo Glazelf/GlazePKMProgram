@@ -5,13 +5,13 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
-using PKHeX.Core;
-using PKHeX.Drawing;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.Drawing;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     [Serializable]
-    public sealed class PKHeXSettings
+    public sealed class GlazePKMProgramSettings
     {
         public StartupSettings Startup { get; set; } = new();
         public BackupSettings Backup { get; set; } = new();
@@ -36,26 +36,26 @@ namespace PKHeX.WinForms
         public EncounterDatabaseSettings EncounterDb { get; set; } = new();
         public MysteryGiftDatabaseSettings MysteryDb { get; set; } = new();
 
-        public static PKHeXSettings GetSettings(string configPath)
+        public static GlazePKMProgramSettings GetSettings(string configPath)
         {
             if (!File.Exists(configPath))
-                return new PKHeXSettings();
+                return new GlazePKMProgramSettings();
 
             try
             {
                 var lines = File.ReadAllText(configPath);
-                return JsonConvert.DeserializeObject<PKHeXSettings>(lines) ?? new PKHeXSettings();
+                return JsonConvert.DeserializeObject<GlazePKMProgramSettings>(lines) ?? new GlazePKMProgramSettings();
             }
 #pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception x)
 #pragma warning restore CA1031 // Do not catch general exception types
             {
                 DumpConfigError(x);
-                return new PKHeXSettings();
+                return new GlazePKMProgramSettings();
             }
         }
 
-        public static void SaveSettings(string configPath, PKHeXSettings cfg)
+        public static void SaveSettings(string configPath, GlazePKMProgramSettings cfg)
         {
             try
             {

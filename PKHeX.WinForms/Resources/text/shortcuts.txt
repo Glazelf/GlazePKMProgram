@@ -14,7 +14,7 @@ CTRL-G: Open Mystery Gift Database
 CTRL-N: Open Encounter Database
 CTRL-M: Open Batch Editor
 CTRL-R: Open Box Report
-CTRL-P: Open About PKHeX
+CTRL-P: Open About GlazePKMProgram
 CTRL-T: Import Showdown Set
 CTRL-SHIFT-T: Export Showdown Set
 CTRL-SHIFT-S: Open Settings

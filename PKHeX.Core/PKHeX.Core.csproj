@@ -4,12 +4,12 @@
     <TargetFrameworks>netstandard2.0;net46</TargetFrameworks>
     <Description>Pokémon C# Class Library</Description>
     <Company>Project Pokémon</Company>
-    <Copyright>Kaphotics</Copyright>
+    <Copyright>Glaze</Copyright>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageLicenseUrl>https://github.com/kwsch/PKHeX/blob/master/LICENSE.md</PackageLicenseUrl>
-    <PackageIconUrl>https://github.com/kwsch/PKHeX/blob/master/PKHeX.WinForms/icon.ico</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/Glaze/GlazePKMProgram/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/Glaze/GlazePKMProgram/blob/master/GlazePKMProgram.WinForms/icon.ico</PackageIconUrl>
     <PackageProjectUrl />
-    <RepositoryUrl>https://github.com/kwsch/PKHeX</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Glaze/GlazePKMProgram</RepositoryUrl>
     <LangVersion>9</LangVersion>
     <Nullable>enable</Nullable>
   </PropertyGroup>

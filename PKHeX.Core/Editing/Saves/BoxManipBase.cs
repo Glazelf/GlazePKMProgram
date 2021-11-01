@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using PKHeX.Core.Searching;
+using GlazePKMProgram.Core.Searching;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public abstract class BoxManipBase : IBoxManip
     {

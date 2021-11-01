@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class UpdateUtil
     {
         /// <summary>
-        /// Gets the latest version of PKHeX according to the Github API
+        /// Gets the latest version of GlazePKMProgram according to the Github API
         /// </summary>
-        /// <returns>A version representing the latest available version of PKHeX, or null if the latest version could not be determined</returns>
-        public static Version? GetLatestPKHeXVersion()
+        /// <returns>A version representing the latest available version of GlazePKMProgram, or null if the latest version could not be determined</returns>
+        public static Version? GetLatestGlazePKMProgramVersion()
         {
-            const string apiEndpoint = "https://api.github.com/repos/kwsch/pkhex/releases/latest";
+            const string apiEndpoint = "https://api.github.com/repos/Glaze/GlazePKMProgram/releases/latest";
             var responseJson = NetUtil.GetStringFromURL(apiEndpoint);
             if (responseJson is null)
                 return null;

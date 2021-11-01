@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-using static PKHeX.Core.Legal;
+using static GlazePKMProgram.Core.Legal;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class EncounterEggGenerator
     {

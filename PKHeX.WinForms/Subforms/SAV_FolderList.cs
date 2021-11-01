@@ -6,11 +6,11 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PKHeX.Core;
-using PKHeX.WinForms.Properties;
-using static PKHeX.Core.MessageStrings;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.WinForms.Properties;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class SAV_FolderList : Form
     {
@@ -81,7 +81,7 @@ namespace PKHeX.WinForms
         {
             var locs = new List<INamedFolderPath>
             {
-                new CustomFolderPath(Main.BackupPath, "PKHeX Backups"),
+                new CustomFolderPath(Main.BackupPath, "GlazePKMProgram Backups"),
             };
             locs.AddRange(GetUserPaths());
             locs.AddRange(GetConsolePaths(drives));

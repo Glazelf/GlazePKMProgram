@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using static PKHeX.Core.Ball;
+using static GlazePKMProgram.Core.Ball;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     internal static class BallUseLegality
     {

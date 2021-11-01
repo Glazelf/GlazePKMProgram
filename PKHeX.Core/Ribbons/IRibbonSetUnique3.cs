@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary> Ribbons introduced in Generation 3 and were transferred to future Generations (4 and 5 only). </summary>
     public interface IRibbonSetUnique3

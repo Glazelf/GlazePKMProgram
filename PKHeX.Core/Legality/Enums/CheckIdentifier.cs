@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary> Identification flair for what properties a <see cref="CheckResult"/> pertains to </summary>
     public enum CheckIdentifier

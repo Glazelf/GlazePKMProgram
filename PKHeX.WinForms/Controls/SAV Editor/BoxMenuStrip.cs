@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using PKHeX.Core;
-using PKHeX.WinForms.Properties;
+using GlazePKMProgram.Core;
+using GlazePKMProgram.WinForms.Properties;
 
-namespace PKHeX.WinForms.Controls
+namespace GlazePKMProgram.WinForms.Controls
 {
     public sealed class BoxMenuStrip : ContextMenuStrip
     {

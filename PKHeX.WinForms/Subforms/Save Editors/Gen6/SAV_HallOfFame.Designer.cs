@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_HallOfFame
     {
@@ -334,7 +334,7 @@
             this.TB_OT.Name = "TB_OT";
             this.TB_OT.Size = new System.Drawing.Size(94, 20);
             this.TB_OT.TabIndex = 3;
-            this.TB_OT.Text = "PKHeX";
+            this.TB_OT.Text = "GlazePKMProgram";
             this.TB_OT.TextChanged += new System.EventHandler(this.Write_Entry);
             // 
             // TB_SID
@@ -581,7 +581,7 @@
             this.Controls.Add(this.RTB);
             this.Controls.Add(this.LB_DataEntry);
             this.Controls.Add(this.groupBox1);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(620, 340);

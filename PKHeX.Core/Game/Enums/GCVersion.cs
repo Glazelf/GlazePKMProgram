@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// <see cref="GameVersion"/> analogues used by Colosseum/XD instead of the main-series values.

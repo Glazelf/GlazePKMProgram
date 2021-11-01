@@ -1,5 +1,5 @@
-﻿PKHeX - By Kaphotics
-http://projectpokemon.org/pkhex/
+﻿GlazePKMProgram - By Glaze
+http://projectpokemon.org/GlazePKMProgram/
 
 21/10/01 - New Update:
  - Legality:
@@ -142,7 +142,7 @@ http://projectpokemon.org/pkhex/
  - - Changed: Gen2 Headbutt data is now initialized & stored more efficiently.
  - Added: More Event Flag descriptions for past generation games. Thanks @CanoeHope!
  - Added: Gen4 Battle Revolution saves can now specify the TID/SID of the currently loaded save entry to unlock Box data access in-game.
- - Added: Move.cs enumeration has been added to the PKHeX.Core API.
+ - Added: Move.cs enumeration has been added to the GlazePKMProgram.Core API.
  - Added: Save File detection can now be extended by adding recognizers to SaveUtil.Handlers (via plugins or code).
  - Changed: IV/EV/AV shortcuts have been adjusted slightly to add more functionality. Refer to shortcuts (IVs unchanged).
  - Changed: Some internals have been refactored for better performance / clarity (string conversion, encounter matching, loading).
@@ -166,7 +166,7 @@ http://projectpokemon.org/pkhex/
  - Changed: PKM Database loading now alerts when it fails to load the database.
  - Fixed: Gen8 setting party to title screen now sets the correct empty slots if your party isn't full.
  - Fixed: Gen6 Cosplay Pikachu now fetches sprites correctly when using the old 40x30 sprites.
- - Refactored: Some API's and properties exposed by PKHeX.Core have been renamed/moved. Examples: AltForm/Forme=>Form, GenNumber=>Generation.
+ - Refactored: Some API's and properties exposed by GlazePKMProgram.Core have been renamed/moved. Examples: AltForm/Forme=>Form, GenNumber=>Generation.
  - Refactored: Implemented new C#9 language features. Some expressions in the source code are cleaner and easier to maintain :)
 
 20/11/28 - New Update: (84108) [3319179]
@@ -216,7 +216,7 @@ http://projectpokemon.org/pkhex/
  - Added: Crown Tundra Raid Seed / Detail editor; separate from the mainland raids.
  - Added: Crown Tundra Pokédex editing is now available in the same Pokédex editor. Keep in mind that the game uses the first dex that has the Species-Form.
  - Changed: Suggested encounters now try to match the current AltForm. Thanks @CScorpion-h!
- - Changed: Nullable compiler checks enabled for PKHeX.WinForms; all sub-projects now have this feature enabled.
+ - Changed: Nullable compiler checks enabled for GlazePKMProgram.WinForms; all sub-projects now have this feature enabled.
  - Updated: Spanish GUI localization files updated. Thanks @XxPhoenix1996xX!
 
 20/10/10 - New Update: (44027) [3091107]
@@ -224,7 +224,7 @@ http://projectpokemon.org/pkhex/
  - - Supports all 3 game types: Pocket Monsters Stadium, Pokémon Stadium, and Pokémon Stadium 2.
  - - Added a new PKM format: SK2. Special format used by Stadium 2, different from PK2.
  - - Added a team viewer for registered teams; each slot on the team can be viewed into the PKM Editor.
- - - Due to endianness inconsistencies with emulators and storage media, PKHeX will automatically save-swap endianness for these saves!
+ - - Due to endianness inconsistencies with emulators and storage media, GlazePKMProgram will automatically save-swap endianness for these saves!
  - - With the addition of Stadium support, every playable game that stores PKM data can now be edited!
  - Legality:
  - - Refactored: IEncounterable objects use inheritance rather than having a single base class for each type.
@@ -252,7 +252,7 @@ http://projectpokemon.org/pkhex/
  - Added: Gen7 LGPE catch count records can now be edited in the Pokedex Editor. Click labels to min-max the counts. Thanks @sora10pls!
  - Added: Gen4 Underground Items are now editable. Thanks @egzn!
  - Changed: Default TID/SID for Gen7+ blank save files is now 123456 (SID 1234).
- - Changed: Blank Save files will try to initialize with the current save file's language. For Japanese saves, the blank OT will be [a fullwidth PKHeX] if possible.
+ - Changed: Blank Save files will try to initialize with the current save file's language. For Japanese saves, the blank OT will be [a fullwidth GlazePKMProgram] if possible.
  - Fixed: The Gen6 font file will no longer throw errors under certain scenarios. Thanks @foohyfooh!
  - Fixed: Gen1 Pikachu Beach score editing reads & writes correctly now. Thanks @ShadowMario3!
  - Showdown Set Imports:
@@ -422,7 +422,7 @@ http://projectpokemon.org/pkhex/
  - - Can compare two saves to see what blocks/values changed.
  - Added: Gen5 Subway score editing. Thanks @egzn!
  - Added: More event flag/const have been documented. Thanks @FeralFalcon & @asterysx!
- - Fixed: Internal API changes for more Thread safety. (People reuse PKHeX.Core in multithreaded applications, and the Rand utility didn't work correctly).
+ - Fixed: Internal API changes for more Thread safety. (People reuse GlazePKMProgram.Core in multithreaded applications, and the Rand utility didn't work correctly).
  - Fixed: German translation no longer misbehaves for certain ribbons.
  - Fixed: Handling for Form Arguments is now performed correctly. Will no longer clear for Runerigus on edit.
  - Fixed: Gen7 LGPE Dumping of Go Park Entities with invalid file names are now sanitized before saving. Thanks @xJam-es!
@@ -440,4 +440,4 @@ http://projectpokemon.org/pkhex/
  - Fixed: Gen8 Mimikyu Busted form now shows up in Pokédex editor.
  - Fixed: Gen4 Event Constants are now read correctly.
  - Fixed: Disabled pkm slot glow effect will no longer leave the frosted effect behind.
- - Changed: GUI translation (winforms only) files moved to WinForms project (no longer in PKHeX.Core). Still need translations ;)
+ - Changed: GUI translation (winforms only) files moved to WinForms project (no longer in GlazePKMProgram.Core). Still need translations ;)

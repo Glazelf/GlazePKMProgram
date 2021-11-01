@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Represents a known value for a <see cref="EventWork{T}"/> of type <see cref="int"/>.

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     internal static partial class Encounters8Nest
     {

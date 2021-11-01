@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 3 Mystery Gift Template File
@@ -135,7 +135,7 @@ namespace PKHeX.Core
             if (string.IsNullOrWhiteSpace(pk.OT_Name))
             {
                 pk.Language = (int)LanguageID.English;
-                pk.OT_Name = "PKHeX";
+                pk.OT_Name = "GlazePKMProgram";
             }
 
             pk.OT_Gender = sav.Gender;

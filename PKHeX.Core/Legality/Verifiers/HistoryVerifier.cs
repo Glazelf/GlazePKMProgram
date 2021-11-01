@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verifies the Friendship, Affection, and other miscellaneous stats that can be present for OT/HT data.
@@ -36,7 +36,7 @@ namespace PKHeX.Core
                 return;
             }
 
-            if (pkm.CurrentHandler != 0) // Badly edited; PKHeX doesn't trip this.
+            if (pkm.CurrentHandler != 0) // Badly edited; GlazePKMProgram doesn't trip this.
                 data.AddLine(GetInvalid(LegalityCheckStrings.LMemoryHTFlagInvalid));
             else if (pkm.HT_Friendship != 0)
                 data.AddLine(GetInvalid(LegalityCheckStrings.LMemoryStatFriendshipHT0));

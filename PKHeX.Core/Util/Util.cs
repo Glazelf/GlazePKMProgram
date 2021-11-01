@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static partial class Util
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using static PKHeX.Core.OPower6Type;
+using static GlazePKMProgram.Core.OPower6Type;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class OPower6 : SaveBlock
     {

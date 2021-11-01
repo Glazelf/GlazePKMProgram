@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static partial class Util
     {

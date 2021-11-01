@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms.Controls
+﻿namespace GlazePKMProgram.WinForms.Controls
 {
     partial class PartyEditor
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.PartyPokeGrid = new PKHeX.WinForms.Controls.PokeGrid();
+            this.PartyPokeGrid = new GlazePKMProgram.WinForms.Controls.PokeGrid();
             this.SuspendLayout();
             // 
             // pokeGrid1

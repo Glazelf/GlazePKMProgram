@@ -1,13 +1,13 @@
 ﻿using System.Linq;
 using FluentAssertions;
 using FluentAssertions.Common;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
-using static PKHeX.Core.Move;
-using static PKHeX.Core.Species;
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.Move;
+using static GlazePKMProgram.Core.Species;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Tests.Legality
+namespace GlazePKMProgram.Tests.Legality
 {
     public class BreedTests
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using static PKHeX.Core.Encounters8Nest;
+using static GlazePKMProgram.Core.Encounters8Nest;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 8 Nest Encounter (Raid)

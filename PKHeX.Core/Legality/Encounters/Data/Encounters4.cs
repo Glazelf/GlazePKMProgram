@@ -1,8 +1,8 @@
-﻿using static PKHeX.Core.EncounterUtil;
-using static PKHeX.Core.GameVersion;
-using static PKHeX.Core.GroundTilePermission;
+﻿using static GlazePKMProgram.Core.EncounterUtil;
+using static GlazePKMProgram.Core.GameVersion;
+using static GlazePKMProgram.Core.GroundTilePermission;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 4 Encounters

@@ -2,9 +2,9 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using static PKHeX.Core.PIDType;
+using static GlazePKMProgram.Core.PIDType;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Class containing logic to obtain a PKM's PIDIV method.

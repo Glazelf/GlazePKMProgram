@@ -1,4 +1,4 @@
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Minimal Trainer Information necessary for generating a <see cref="PKM"/>.

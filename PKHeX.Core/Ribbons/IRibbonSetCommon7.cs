@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary> Common Ribbons introduced in Generation 7 </summary>
     public interface IRibbonSetCommon7

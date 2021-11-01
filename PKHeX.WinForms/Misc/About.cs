@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class About : Form
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using static PKHeX.Core.OverworldCorrelation8Requirement;
+using static GlazePKMProgram.Core.OverworldCorrelation8Requirement;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 8 Static Encounter

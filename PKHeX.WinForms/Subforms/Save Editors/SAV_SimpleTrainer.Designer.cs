@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_SimpleTrainer
     {
@@ -854,7 +854,7 @@
             this.Controls.Add(this.B_Cancel);
             this.Controls.Add(this.GB_Map);
             this.Controls.Add(this.GB_Adventure);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MinimumSize = new System.Drawing.Size(400, 300);
             this.Name = "SAV_SimpleTrainer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

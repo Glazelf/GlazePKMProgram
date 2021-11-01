@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Result indicators for modifying a Slot within a <see cref="SaveFile"/> or other data location.

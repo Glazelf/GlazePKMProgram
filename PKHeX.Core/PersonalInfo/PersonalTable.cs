@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// <see cref="PersonalInfo"/> table (array).

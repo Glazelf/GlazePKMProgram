@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Mystery Gift backed by serialized fields from ROM/SAV data, rather than observed specifications.

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using static PKHeX.Core.GameVersion;
-using static PKHeX.Core.Species;
+using static GlazePKMProgram.Core.GameVersion;
+using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic related to breeding.

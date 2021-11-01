@@ -1,4 +1,4 @@
-﻿using PKHeX.Core;
+﻿using GlazePKMProgram.Core;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -8,10 +8,10 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-using static PKHeX.Core.MessageStrings;
+using static GlazePKMProgram.Core.MessageStrings;
 using Exception = System.Exception;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public static class WinFormsUtil
     {

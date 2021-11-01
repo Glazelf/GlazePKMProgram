@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.LegalityCheckStrings;
+﻿using static GlazePKMProgram.Core.LegalityCheckStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verifies the <see cref="IRegionOrigin.ConsoleRegion"/> and <see cref="IRegionOrigin.Country"/> of origin values.

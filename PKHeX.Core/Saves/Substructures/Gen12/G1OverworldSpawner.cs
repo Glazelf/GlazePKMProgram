@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 // ReSharper disable UnusedAutoPropertyAccessor.Local
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class G1OverworldSpawner
     {

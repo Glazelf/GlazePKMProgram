@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public sealed class TrainerCard8 : SaveBlock
     {

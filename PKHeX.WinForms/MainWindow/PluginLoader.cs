@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public static class PluginLoader
     {

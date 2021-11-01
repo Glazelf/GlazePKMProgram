@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Drawing
+﻿namespace GlazePKMProgram.Drawing
 {
     public enum QRDecodeResult
     {

@@ -1,15 +1,15 @@
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Drawing;
-using PKHeX.WinForms.Controls;
-using static PKHeX.Core.MessageStrings;
+using GlazePKMProgram.Drawing;
+using GlazePKMProgram.WinForms.Controls;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class SAV_Wondercard : Form
     {
@@ -354,7 +354,7 @@ namespace PKHeX.WinForms
 
             string desc = $"({mg.Type}) {string.Join(Environment.NewLine, mg.GetDescription())}";
 
-            using var form = new QR(qr, PB_Preview.Image, desc + Environment.NewLine + "PKHeX Wonder Card @ ProjectPokemon.org");
+            using var form = new QR(qr, PB_Preview.Image, desc + Environment.NewLine + "GlazePKMProgram Wonder Card @ ProjectPokemon.org");
             form.ShowDialog();
         }
 

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using Xunit;
 
-namespace PKHeX.Tests.Legality.Shadow
+namespace GlazePKMProgram.Tests.Legality.Shadow
 {
     public static class ValidityTests
     {

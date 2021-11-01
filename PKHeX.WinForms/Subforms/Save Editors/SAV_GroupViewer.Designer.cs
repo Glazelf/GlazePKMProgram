@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     sealed partial class SAV_GroupViewer
     {
@@ -34,7 +34,7 @@
             this.CB_BoxSelect = new System.Windows.Forms.ComboBox();
             this.mnu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mnuView = new System.Windows.Forms.ToolStripMenuItem();
-            this.Box = new PKHeX.WinForms.Controls.PokeGrid();
+            this.Box = new GlazePKMProgram.WinForms.Controls.PokeGrid();
             this.mnu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,7 +80,7 @@
             // 
             // mnuView
             // 
-            this.mnuView.Image = global::PKHeX.WinForms.Properties.Resources.other;
+            this.mnuView.Image = global::GlazePKMProgram.WinForms.Properties.Resources.other;
             this.mnuView.Name = "mnuView";
             this.mnuView.Size = new System.Drawing.Size(99, 22);
             this.mnuView.Text = "View";
@@ -106,7 +106,7 @@
             this.Controls.Add(this.CB_BoxSelect);
             this.Controls.Add(this.Box);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SAV_GroupViewer";

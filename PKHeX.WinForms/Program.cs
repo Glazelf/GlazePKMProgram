@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
 #if !DEBUG
 using System.Reflection;
@@ -9,7 +9,7 @@ using System.IO;
 using System.Threading;
 #endif
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     internal static class Program
     {
@@ -41,7 +41,7 @@ namespace PKHeX.WinForms
         }
 
 #if !DEBUG
-        private static void Error(string msg) => MessageBox.Show(msg, "PKHeX Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+        private static void Error(string msg) => MessageBox.Show(msg, "GlazePKMProgram Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
 
         // Handle the UI exceptions by showing a dialog box, and asking the user whether or not they wish to abort execution.
         private static void UIThreadException(object sender, ThreadExceptionEventArgs t)
@@ -49,7 +49,7 @@ namespace PKHeX.WinForms
             DialogResult result = DialogResult.Cancel;
             try
             {
-                result = ErrorWindow.ShowErrorDialog("An unhandled exception has occurred.\nYou can continue running PKHeX, but please report this error.", t.Exception, true);
+                result = ErrorWindow.ShowErrorDialog("An unhandled exception has occurred.\nYou can continue running GlazePKMProgram, but please report this error.", t.Exception, true);
             }
 #pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception reportingException)
@@ -72,17 +72,17 @@ namespace PKHeX.WinForms
             var ex = e.ExceptionObject as Exception;
             try
             {
-                if (IsOldPkhexCorePresent(ex))
+                if (IsOldGlazePKMProgramCorePresent(ex))
                 {
-                    Error("You have upgraded PKHeX incorrectly. Please delete PKHeX.Core.dll.");
+                    Error("You have upgraded GlazePKMProgram incorrectly. Please delete GlazePKMProgram.Core.dll.");
                 }
                 else if (ex != null)
                 {
-                    ErrorWindow.ShowErrorDialog("An unhandled exception has occurred.\nPKHeX must now close.", ex, false);
+                    ErrorWindow.ShowErrorDialog("An unhandled exception has occurred.\nGlazePKMProgram must now close.", ex, false);
                 }
                 else
                 {
-                    Error("A fatal non-UI error has occurred in PKHeX, and the details could not be displayed.  Please report this to the author.");
+                    Error("A fatal non-UI error has occurred in GlazePKMProgram, and the details could not be displayed.  Please report this to the author.");
                 }
             }
 #pragma warning disable CA1031 // Do not catch general exception types
@@ -95,14 +95,14 @@ namespace PKHeX.WinForms
 
         private static void HandleReportingException(Exception? ex, Exception reportingException)
         {
-            if (reportingException is FileNotFoundException x && x.FileName?.StartsWith("PKHeX.Core") == true)
+            if (reportingException is FileNotFoundException x && x.FileName?.StartsWith("GlazePKMProgram.Core") == true)
             {
-                Error("Could not locate PKHeX.Core.dll. Make sure you're running PKHeX together with its code library. Usually caused when all files are not extracted.");
+                Error("Could not locate GlazePKMProgram.Core.dll. Make sure you're running GlazePKMProgram together with its code library. Usually caused when all files are not extracted.");
                 return;
             }
             try
             {
-                Error("A fatal non-UI error has occurred in PKHeX, and there was a problem displaying the details.  Please report this to the author.");
+                Error("A fatal non-UI error has occurred in GlazePKMProgram, and there was a problem displaying the details.  Please report this to the author.");
                 EmergencyErrorLog(ex, reportingException);
             }
             finally
@@ -122,7 +122,7 @@ namespace PKHeX.WinForms
             {
                 // Not using a string builder because something's very wrong, and we don't want to make things worse
                 var message = (originalException?.ToString() ?? "null first exception") + Environment.NewLine + errorHandlingException;
-                File.WriteAllText($"PKHeX_Error_Report {DateTime.Now:yyyyMMddHHmmss}.txt", message);
+                File.WriteAllText($"GlazePKMProgram_Error_Report {DateTime.Now:yyyyMMddHHmmss}.txt", message);
             }
 #pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception)
@@ -134,11 +134,11 @@ namespace PKHeX.WinForms
             return true;
         }
 
-        private static bool IsOldPkhexCorePresent(Exception? ex)
+        private static bool IsOldGlazePKMProgramCorePresent(Exception? ex)
         {
             return ex is MissingMethodException
-                && File.Exists("PKHeX.Core.dll")
-                && AssemblyName.GetAssemblyName("PKHeX.Core.dll").Version < Assembly.GetExecutingAssembly().GetName().Version;
+                && File.Exists("GlazePKMProgram.Core.dll")
+                && AssemblyName.GetAssemblyName("GlazePKMProgram.Core.dll").Version < Assembly.GetExecutingAssembly().GetName().Version;
         }
 #endif
     }

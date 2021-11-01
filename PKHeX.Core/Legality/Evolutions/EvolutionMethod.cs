@@ -1,6 +1,6 @@
-using static PKHeX.Core.EvolutionType;
+using static GlazePKMProgram.Core.EvolutionType;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Criteria for evolving to this branch in the <see cref="EvolutionTree"/>

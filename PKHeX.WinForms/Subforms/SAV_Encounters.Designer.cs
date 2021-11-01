@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_Encounters
     {
@@ -34,7 +34,7 @@
             this.Menu_Close = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_Exit = new System.Windows.Forms.ToolStripMenuItem();
             this.P_Results = new System.Windows.Forms.Panel();
-            this.EncounterPokeGrid = new PKHeX.WinForms.Controls.PokeGrid();
+            this.EncounterPokeGrid = new GlazePKMProgram.WinForms.Controls.PokeGrid();
             this.CB_Species = new System.Windows.Forms.ComboBox();
             this.CB_Move4 = new System.Windows.Forms.ComboBox();
             this.CB_Move3 = new System.Windows.Forms.ComboBox();
@@ -105,7 +105,7 @@
             // 
             // Menu_Exit
             // 
-            this.Menu_Exit.Image = global::PKHeX.WinForms.Properties.Resources.exit;
+            this.Menu_Exit.Image = global::GlazePKMProgram.WinForms.Properties.Resources.exit;
             this.Menu_Exit.Name = "Menu_Exit";
             this.Menu_Exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
             this.Menu_Exit.ShowShortcutKeys = false;
@@ -450,7 +450,7 @@
             // 
             // mnuView
             // 
-            this.mnuView.Image = global::PKHeX.WinForms.Properties.Resources.other;
+            this.mnuView.Image = global::GlazePKMProgram.WinForms.Properties.Resources.other;
             this.mnuView.Name = "mnuView";
             this.mnuView.Size = new System.Drawing.Size(99, 22);
             this.mnuView.Text = "View";
@@ -502,7 +502,7 @@
             this.Controls.Add(this.P_Results);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SAV_Encounters";

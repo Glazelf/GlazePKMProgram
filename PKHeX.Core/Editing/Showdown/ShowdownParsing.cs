@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.Species;
+using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for parsing details for <see cref="ShowdownSet"/> objects.
@@ -49,10 +49,10 @@ namespace PKHeX.Core
         private const string MiniorFormName = "Meteor";
 
         /// <summary>
-        /// Converts the PKHeX standard form name to Showdown's form name.
+        /// Converts the GlazePKMProgram standard form name to Showdown's form name.
         /// </summary>
         /// <param name="species">Species ID</param>
-        /// <param name="form">PKHeX form name</param>
+        /// <param name="form">GlazePKMProgram form name</param>
         public static string GetShowdownFormName(int species, string form)
         {
             if (form.Length == 0)
@@ -84,7 +84,7 @@ namespace PKHeX.Core
         }
 
         /// <summary>
-        /// Converts the Showdown form name to PKHeX's form name.
+        /// Converts the Showdown form name to GlazePKMProgram's form name.
         /// </summary>
         /// <param name="species">Species ID</param>
         /// <param name="form">Showdown form name</param>

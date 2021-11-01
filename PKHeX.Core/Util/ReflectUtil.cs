@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class ReflectUtil
     {

@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_SimplePokedex
     {
@@ -151,7 +151,7 @@
             this.Controls.Add(this.CLB_Caught);
             this.Controls.Add(this.Label_Seen);
             this.Controls.Add(this.CLB_Seen);
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximumSize = new System.Drawing.Size(300, 375);
             this.MinimumSize = new System.Drawing.Size(300, 375);
             this.Name = "SAV_SimplePokedex";

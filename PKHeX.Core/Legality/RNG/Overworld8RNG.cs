@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Contains logic for the Generation 8 (SW/SH) overworld spawns that walk around the overworld.

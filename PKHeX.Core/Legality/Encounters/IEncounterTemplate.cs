@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     public interface IEncounterTemplate : ISpeciesForm, IVersion, IGeneration, IShiny
     {

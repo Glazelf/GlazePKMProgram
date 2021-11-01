@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Verification that provides new <see cref="CheckResult"/> values for a <see cref="LegalityAnalysis"/>.

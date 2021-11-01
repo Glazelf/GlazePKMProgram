@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     /// <summary>
     /// Drawing Configuration for painting and updating controls

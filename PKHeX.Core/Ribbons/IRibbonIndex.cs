@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Provides access for reading and writing ribbon states by ribbon index within the <see cref="PKM"/> structure.

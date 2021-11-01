@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using PKHeX.Core.Searching;
-using static PKHeX.Core.CheckIdentifier;
+using GlazePKMProgram.Core.Searching;
+using static GlazePKMProgram.Core.CheckIdentifier;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Analyzes content within a <see cref="SaveFile"/> for overall <see cref="PKM"/> legality analysis.

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Trade Encounter data with a fixed Catch Rate

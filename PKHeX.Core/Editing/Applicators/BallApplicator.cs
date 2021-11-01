@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.Ball;
+using static GlazePKMProgram.Core.Ball;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Contains logic to apply a new <see cref="Ball"/> value to a <see cref="PKM"/>.

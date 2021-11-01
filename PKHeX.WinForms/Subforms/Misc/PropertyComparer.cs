@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Reflection;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public sealed class PropertyComparer<T> : IComparer<T> where T : class
     {

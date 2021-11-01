@@ -2,9 +2,9 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public partial class SAV_Accessor<T> : Form where T : class, ISaveBlockAccessor<BlockInfo>
     {

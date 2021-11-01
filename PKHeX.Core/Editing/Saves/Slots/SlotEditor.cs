@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Facilitates interaction with a <see cref="SaveFile"/> or other data location's slot data.

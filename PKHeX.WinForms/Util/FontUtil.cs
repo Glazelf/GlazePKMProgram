@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
-using PKHeX.WinForms.Properties;
+using GlazePKMProgram.WinForms.Properties;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public static class FontUtil
     {

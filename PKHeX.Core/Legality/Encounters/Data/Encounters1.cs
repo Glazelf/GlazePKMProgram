@@ -1,7 +1,7 @@
-﻿using static PKHeX.Core.GameVersion;
-using static PKHeX.Core.EncounterGBLanguage;
+﻿using static GlazePKMProgram.Core.GameVersion;
+using static GlazePKMProgram.Core.EncounterGBLanguage;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Generation 1 Encounters

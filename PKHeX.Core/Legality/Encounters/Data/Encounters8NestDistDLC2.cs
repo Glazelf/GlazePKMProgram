@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     // Distribution Nest Encounters (BCAT)
     internal static partial class Encounters8Nest

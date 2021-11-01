@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using static PKHeX.Core.Species;
+using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Contains logic for Alternate Form information.

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using static PKHeX.Core.EggSource34;
-using static PKHeX.Core.GameVersion;
+using static GlazePKMProgram.Core.EggSource34;
+using static GlazePKMProgram.Core.GameVersion;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Inheritance logic for Generation 4.

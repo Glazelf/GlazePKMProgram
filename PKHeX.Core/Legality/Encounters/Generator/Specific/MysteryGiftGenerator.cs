@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.EncounterEvent;
+using static GlazePKMProgram.Core.EncounterEvent;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public static class MysteryGiftGenerator
     {

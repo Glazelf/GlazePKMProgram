@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using PKHeX.Core;
-using static PKHeX.Core.MessageStrings;
+using GlazePKMProgram.Core;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.WinForms
+namespace GlazePKMProgram.WinForms
 {
     public sealed partial class SAV_EventFlags : Form
     {

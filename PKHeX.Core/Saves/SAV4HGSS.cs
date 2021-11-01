@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// <see cref="SaveFile"/> format for <see cref="GameVersion.HGSS"/>
@@ -218,7 +218,7 @@ namespace PKHeX.Core
                 PokegearNumber.Professor_Oak,
                 PokegearNumber.Ethan,
                 PokegearNumber.Lyra,
-                PokegearNumber.Kurt,
+                PokegearNumber.Glaze,
                 PokegearNumber.Daycare_Man,
                 PokegearNumber.Daycare_Lady,
                 PokegearNumber.Bill,

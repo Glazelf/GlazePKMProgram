@@ -1,4 +1,4 @@
-﻿namespace PKHeX.WinForms
+﻿namespace GlazePKMProgram.WinForms
 {
     partial class SAV_Trainer8
     {
@@ -108,7 +108,7 @@
             this.NUD_BP = new System.Windows.Forms.NumericUpDown();
             this.L_BP = new System.Windows.Forms.Label();
             this.TrainerStats = new Controls.TrainerStat();
-            this.trainerID1 = new PKHeX.WinForms.Controls.TrainerID();
+            this.trainerID1 = new GlazePKMProgram.WinForms.Controls.TrainerID();
             this.GB_Adventure = new System.Windows.Forms.GroupBox();
             this.L_Fame = new System.Windows.Forms.Label();
             this.CAL_HoFDate = new System.Windows.Forms.DateTimePicker();
@@ -1377,7 +1377,7 @@
             this.Controls.Add(this.B_Save);
             this.Controls.Add(this.B_Cancel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = global::PKHeX.WinForms.Properties.Resources.Icon;
+            this.Icon = global::GlazePKMProgram.WinForms.Properties.Resources.Icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SAV_Trainer8";

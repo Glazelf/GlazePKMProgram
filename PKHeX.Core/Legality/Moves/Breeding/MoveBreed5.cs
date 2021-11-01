@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using static PKHeX.Core.EggSource5;
+using static GlazePKMProgram.Core.EggSource5;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Inheritance logic for Generation 5.

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.ComponentModel;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Used for allowing a struct to be mutated in a PropertyGrid.

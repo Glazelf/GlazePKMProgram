@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <inheritdoc cref="ISuggestModification"/>
     public class ComplexSuggestion : ISuggestModification

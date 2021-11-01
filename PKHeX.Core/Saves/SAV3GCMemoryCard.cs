@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /* GameCube memory card format data, checksum and code to extract files based on Dolphin code, adapted from C++ to C#
      * https://github.com/dolphin-emu/dolphin/

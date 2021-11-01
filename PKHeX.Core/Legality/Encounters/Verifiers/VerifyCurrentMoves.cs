@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.LegalityCheckStrings;
-using static PKHeX.Core.ParseSettings;
+using static GlazePKMProgram.Core.LegalityCheckStrings;
+using static GlazePKMProgram.Core.ParseSettings;
 
-using static PKHeX.Core.MoveSource;
-using static PKHeX.Core.Severity;
-using static PKHeX.Core.CheckIdentifier;
+using static GlazePKMProgram.Core.MoveSource;
+using static GlazePKMProgram.Core.Severity;
+using static GlazePKMProgram.Core.CheckIdentifier;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic to verify the current <see cref="PKM.Moves"/>.

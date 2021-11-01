@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
-using PKHeX.Core;
+using GlazePKMProgram.Core;
 using System.IO;
 using Xunit;
 
-namespace PKHeX.Tests.Saves
+namespace GlazePKMProgram.Tests.Saves
 {
     public static class SMTests
     {
