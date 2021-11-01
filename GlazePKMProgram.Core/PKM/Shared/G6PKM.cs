@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary> Generation 6 <see cref="PKM"/> format. </summary>
     public abstract class G6PKM : PKM

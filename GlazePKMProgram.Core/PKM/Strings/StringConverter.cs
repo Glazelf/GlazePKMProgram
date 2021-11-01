@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
-using static PKHeX.Core.StringConverter7ZH;
+using static GlazePKMProgram.Core.StringConverter7ZH;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for converting a <see cref="string"/> between the various generation specific encoding formats.

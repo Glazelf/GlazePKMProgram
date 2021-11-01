@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary> Generation 2 <see cref="PKM"/> format. </summary>
     public sealed class PK2 : GBPKML, ICaughtData2

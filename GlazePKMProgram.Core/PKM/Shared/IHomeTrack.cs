@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Interface that exposes a <see cref="Tracker"/> for Pokémon HOME.

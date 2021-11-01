@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Exposes <see cref="OT_Affection"/> and <see cref="HT_Affection"/> properties used by Gen6/7.

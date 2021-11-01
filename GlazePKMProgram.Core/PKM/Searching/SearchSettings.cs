@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PKHeX.Core.Searching
+namespace GlazePKMProgram.Core.Searching
 {
     /// <summary>
     /// <see cref="PKM"/> search settings &amp; searcher

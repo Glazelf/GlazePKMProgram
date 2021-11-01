@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using static PKHeX.Core.LanguageID;
+using static GlazePKMProgram.Core.LanguageID;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic relating to <see cref="LanguageID"/> values.

@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.GroundTileType;
+﻿using static GlazePKMProgram.Core.GroundTileType;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Ground Tile Type the <see cref="PKM"/> was encountered from.

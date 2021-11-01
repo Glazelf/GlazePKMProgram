@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Mainline format for Generation 1 &amp; 2 <see cref="PKM"/> objects.

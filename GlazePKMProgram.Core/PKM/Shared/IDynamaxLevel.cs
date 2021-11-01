@@ -1,6 +1,6 @@
-﻿using static PKHeX.Core.Species;
+﻿using static GlazePKMProgram.Core.Species;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     public interface IDynamaxLevel
     {

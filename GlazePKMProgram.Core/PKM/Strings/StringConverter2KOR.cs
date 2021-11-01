@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using static PKHeX.Core.StringConverter12;
+using static GlazePKMProgram.Core.StringConverter12;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for converting a <see cref="string"/> for Generation 2 Korean Gold/Silver.

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Bindable summary object that can fetch strings that summarize a <see cref="PKM"/>.

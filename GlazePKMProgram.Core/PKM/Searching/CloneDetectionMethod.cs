@@ -1,4 +1,4 @@
-namespace PKHeX.Core.Searching
+namespace GlazePKMProgram.Core.Searching
 {
     /// <summary>
     /// Search option to check for clones.

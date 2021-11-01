@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary> Generation 3 <see cref="PKM"/> format. </summary>
     public sealed class PK3 : G3PKM

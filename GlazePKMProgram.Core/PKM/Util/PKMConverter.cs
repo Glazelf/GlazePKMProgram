@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 
-using static PKHeX.Core.MessageStrings;
+using static GlazePKMProgram.Core.MessageStrings;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for converting a <see cref="PKM"/> from one generation specific format to another.
@@ -439,7 +439,7 @@ namespace PKHeX.Core
 
         public static PKM GetBlank(int gen)
         {
-            var type = Type.GetType($"PKHeX.Core.PK{gen}");
+            var type = Type.GetType($"GlazePKMProgram.Core.PK{gen}");
             if (type is null)
                 throw new InvalidCastException($"Unable to get the type for PK{gen}.");
 

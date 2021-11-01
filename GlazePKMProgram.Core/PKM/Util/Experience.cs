@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Calculations for <see cref="PKM.EXP"/> and <see cref="PKM.CurrentLevel"/>.

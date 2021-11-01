@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Logic for converting a <see cref="string"/> for Generation 3.

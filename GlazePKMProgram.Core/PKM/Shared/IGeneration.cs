@@ -1,4 +1,4 @@
-﻿namespace PKHeX.Core
+﻿namespace GlazePKMProgram.Core
 {
     /// <summary>
     /// Interface that exposes a <see cref="Generation"/> to see which canonical generation the data originated in.

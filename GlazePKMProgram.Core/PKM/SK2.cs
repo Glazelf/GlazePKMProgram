@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PKHeX.Core
+namespace GlazePKMProgram.Core
 {
     /// <summary> Generation 2 <see cref="PKM"/> format for <see cref="GameVersion.Stadium2"/>. </summary>
     public sealed class SK2 : GBPKM, ICaughtData2
@@ -182,7 +182,7 @@ namespace PKHeX.Core
 
                 // Only copies until first 0x50 terminator, but just copy everything
                 Nickname = Nickname,
-                OT_Name = IsRental ? Japanese ? "1337" : "PKHeX" : OT_Name,
+                OT_Name = IsRental ? Japanese ? "1337" : "GlazePKMProgram" : OT_Name,
             };
         }
 
