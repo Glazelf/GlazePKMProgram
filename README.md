@@ -28,7 +28,7 @@ GlazePKMProgram expects save files that are not encrypted with console-specific 
 
 ## Screenshots
 
-![Main Window](https://i.imgur.com/sM7kt4u.png)
+![Main Window](https://i.imgur.com/C0A6soR.png)
 
 ## Building
 
