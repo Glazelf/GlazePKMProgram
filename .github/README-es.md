@@ -1,4 +1,4 @@
-PKHeX
+GlazePKMProgram
 =====
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
@@ -18,7 +18,7 @@ La interfaz gráfica puede ser traducida con archivos de texto externos para dar
 
 Pokémon Showdown asigna un código QR que puede ser importado/exportado para ayudar al compartir.
 
-PKHeX espera archivos de guardado que no estén cifrados con las claves específicas de la consola. Use un gestor de archivos de guardado para importar y exportar información de la consola ([Checkpoint](https://github.com/FlagBrew/Checkpoint), save_manager, [JKSM](https://github.com/J-D-K/JKSM), o SaveDataFiler).
+GlazePKMProgram espera archivos de guardado que no estén cifrados con las claves específicas de la consola. Use un gestor de archivos de guardado para importar y exportar información de la consola ([Checkpoint](https://github.com/FlagBrew/Checkpoint), save_manager, [JKSM](https://github.com/J-D-K/JKSM), o SaveDataFiler).
 
 **No apoyamos ni toleramos las trampas a expensas de otros. No uses un Pokémon modificado significativamente en batalla o en intercambios con quienes no estén al tanto de que estás usando un Pokémon modificado.**
 
@@ -28,7 +28,7 @@ PKHeX espera archivos de guardado que no estén cifrados con las claves específ
 
 ## Building
 
-PKHeX es una aplicación de Windows Forms que requiere [.NET Framework v4.6](https://www.microsoft.com/en-us/download/details.aspx?id=48137), con soporte experimental para [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0).
+GlazePKMProgram es una aplicación de Windows Forms que requiere [.NET Framework v4.6](https://www.microsoft.com/en-us/download/details.aspx?id=48137), con soporte experimental para [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0).
 
 El archivo ejecutable puede ser construido con cualquier compilador que soporte C# 8.
 
@@ -38,7 +38,7 @@ Para hacer el build puedes usar las configuraciones de Debug o de Release. ¡No 
 
 ## Dependencias
 
-La generación de códigos QR de PKHeX es la de [QRCoder](https://github.com/codebude/QRCoder), licenciado bajo [la licencia MIT](https://github.com/codebude/QRCoder/blob/master/LICENSE.txt).
+La generación de códigos QR de GlazePKMProgram es la de [QRCoder](https://github.com/codebude/QRCoder), licenciado bajo [la licencia MIT](https://github.com/codebude/QRCoder/blob/master/LICENSE.txt).
 
 La colección de sprites de Pokémons Shiny de PKHeX fue tomada de [pokesprite](https://github.com/msikma/pokesprite), licenciado bajo [la licencia MIT](https://github.com/msikma/pokesprite/blob/master/LICENSE).
 
