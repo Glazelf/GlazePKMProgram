@@ -40,11 +40,11 @@ Para hacer el build puedes usar las configuraciones de Debug o de Release. ¡No 
 
 La generación de códigos QR de GlazePKMProgram es la de [QRCoder](https://github.com/codebude/QRCoder), licenciado bajo [la licencia MIT](https://github.com/codebude/QRCoder/blob/master/LICENSE.txt).
 
-La colección de sprites de Pokémons Shiny de PKHeX fue tomada de [pokesprite](https://github.com/msikma/pokesprite), licenciado bajo [la licencia MIT](https://github.com/msikma/pokesprite/blob/master/LICENSE).
+La colección de sprites de Pokémons Shiny de GlazePKMProgram fue tomada de [pokesprite](https://github.com/msikma/pokesprite), licenciado bajo [la licencia MIT](https://github.com/msikma/pokesprite/blob/master/LICENSE).
 
 ### IDE
 
-PKHeX se puede abrir con un IDE como [Visual Studio](https://visualstudio.microsoft.com/downloads/), abriendo los archivos .sln o .csproj.
+GlazePKMProgram se puede abrir con un IDE como [Visual Studio](https://visualstudio.microsoft.com/downloads/), abriendo los archivos .sln o .csproj.
 
 ### GNU/Linux
 
