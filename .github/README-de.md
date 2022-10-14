@@ -1,4 +1,4 @@
-PKHeX
+GlazePKMProgram
 =====
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
@@ -18,7 +18,7 @@ Die Benutzeroberfläche unterstützt mehrere Sprachen, sie kann durch Text Datei
 
 Das Teilen der Pokémon wird durch das Importieren und Exportieren von Pokémon Showdown Sets und QR Codes erleichtert.
 
-PKHeX erwartet Spielstände, die mit konsolenspezifischen Schlüsseln entschlüsselt wurden. Benutze also einen Savedata Manager um Spielstände von der Konsole zu exportieren und wieder zu importieren ([Checkpoint](https://github.com/FlagBrew/Checkpoint), save_manager, [JKSM](https://github.com/J-D-K/JKSM), oder SaveDataFiler).
+GlazePKMProgram erwartet Spielstände, die mit konsolenspezifischen Schlüsseln entschlüsselt wurden. Benutze also einen Savedata Manager um Spielstände von der Konsole zu exportieren und wieder zu importieren ([Checkpoint](https://github.com/FlagBrew/Checkpoint), save_manager, [JKSM](https://github.com/J-D-K/JKSM), oder SaveDataFiler).
 
 **Wir unterstützen und dulden kein Cheating auf Kosten anderer. Benutze keine gehackten Pokémon in Kämpfen oder Tauschen mit anderen, die nicht wissen, dass du gehackte Pokémon benutzt.**
 
@@ -28,7 +28,7 @@ PKHeX erwartet Spielstände, die mit konsolenspezifischen Schlüsseln entschlüs
 
 ## Erstellen
 
-PKHeX ist eine Windows Forms Anwendung, die das [.NET Framework v4.6](https://www.microsoft.com/en-us/download/details.aspx?id=48137) benötigt, mit experimenteller Unterstützung für [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0).
+GlazePKMProgram ist eine Windows Forms Anwendung, die das [.NET Framework v4.6](https://www.microsoft.com/en-us/download/details.aspx?id=48137) benötigt, mit experimenteller Unterstützung für [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0).
 
 Die Anwendung kann mit jedem Kompiler erstellt werde, der C# 8 unterstützt.
 
@@ -38,14 +38,14 @@ Benutze die Debug oder Release Konfiguration beim Erstellen. Es gibt keinen plat
 
 ## Anhängigkeiten
 
-PKHeXs QR Code Generierung stammt von [QRCoder](https://github.com/codebude/QRCoder), welcher unter [der MIT Lizenz](https://github.com/codebude/QRCoder/blob/master/LICENSE.txt) lizensiert ist.
+GlazePKMPrograms QR Code Generierung stammt von [QRCoder](https://github.com/codebude/QRCoder), welcher unter [der MIT Lizenz](https://github.com/codebude/QRCoder/blob/master/LICENSE.txt) lizensiert ist.
 
-PKHeX nutzt Shiny Sprites von [pokesprite](https://github.com/msikma/pokesprite), diese sind unter [der MIT Lizenz](https://github.com/msikma/pokesprite/blob/master/LICENSE) lizensiert.
+GlazePKMProgram nutzt Shiny Sprites von [pokesprite](https://github.com/msikma/pokesprite), diese sind unter [der MIT Lizenz](https://github.com/msikma/pokesprite/blob/master/LICENSE) lizensiert.
 
 ### IDE
 
-PKHeX kann mit IDEs wie [Visual Studio](https://visualstudio.microsoft.com/downloads/) durch das Öffnen der .sln oder .csproj Dateien geöffnet werden.
+GlazePKMProgram kann mit IDEs wie [Visual Studio](https://visualstudio.microsoft.com/downloads/) durch das Öffnen der .sln oder .csproj Dateien geöffnet werden.
 
 ### GNU/Linux
 
-GNU/Linux ist nicht das Hauptbetriebssystem der PKHeX Entwickler, daher könnten dort Bugs auftreten. Manche kommen möglicherweise von GNU/Linux spezifischem Code in Mono/Wine und können deshalb nicht von jedem reproduziert werden kann.
+GNU/Linux ist nicht das Hauptbetriebssystem der GlazePKMProgram Entwickler, daher könnten dort Bugs auftreten. Manche kommen möglicherweise von GNU/Linux spezifischem Code in Mono/Wine und können deshalb nicht von jedem reproduziert werden kann.
